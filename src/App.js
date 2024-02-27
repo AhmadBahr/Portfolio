@@ -9,6 +9,7 @@ import Hero from './Components/Hero/Hero';
 import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
 import TechStack from './Components/TechStack/TechStack';
+import Copyright from './Components/Copyright/Copyright';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/techstack" element={<TechStack />} />
+          <Route path="/copyright" element={<Copyright />} />
         </Routes>
         <Footer />
       </div>
