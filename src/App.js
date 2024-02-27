@@ -1,34 +1,29 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NavBar from './Shared/Navbar/Navbar';
-import Footer from './Shared/Footer/Footer';
-import About from './Components/About/About';
-import Contact from './Components/Contact/Contact';
-import Experience from './Components/Experience/Experience';
+import NavBar from '././Shared/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
+import About from './Components/About/About';
 import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
 import TechStack from './Components/TechStack/TechStack';
-import Copyright from './Components/Copyright/Copyright';
+import Contact from './Components/Contact/Contact';
+import Footer from '././Shared/Footer/Footer';
+import Experience from '././Components/Experience/Experience';
+import Copyright from './Components/Copyrights/Copyright';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <NavBar /> 
-        <Routes>
-          <Route path="/" element={<Hero />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/techstack" element={<TechStack />} />
-          <Route path="/copyright" element={<Copyright />} />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <div className="App">
+      <NavBar />
+      <Hero />
+      <Experience/>
+      <About />
+      <Projects />
+      <Skills />
+      <TechStack/>
+      <Contact />
+      <Footer />
+      <Copyright/>
+    </div>
   );
 }
 

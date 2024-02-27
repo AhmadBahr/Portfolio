@@ -1,0 +1,27 @@
+.copyright-container {
+    background-color: #1F1F1F !important;
+    color: white;
+    padding: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+  }
+  
+  .ahmad {
+    color: white;
+  }
+
+  .ahmad, .bahr, .year {
+    margin-right: 5px; 
+  }
+  
+  .bahr {
+    color: #E65F78 !important;
+  }
+
+  .year{
+    color: white;
+    margin-right: 5px; 
+  }
+  

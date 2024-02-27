@@ -1,0 +1,44 @@
+.contact-container {
+  text-align: center;
+  background-color: #333333;
+  margin-top: 50px;
+}
+
+.contact-title {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.underline {
+  border: 1.5px solid #E65F78;
+  width: 40px;
+  margin: 20px auto;
+  margin-bottom: 2rem;
+}
+
+.contact-text {
+  color: white;
+}
+
+.message-button {
+  background-color: #E65F78;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px; /* Adjust icon size */
+}
+
