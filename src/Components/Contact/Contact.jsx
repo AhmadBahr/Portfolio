@@ -11,7 +11,7 @@ const Contact = () => {
       <hr className="underline" />
       <p className="contact-text">I am currently seeking employment or project offers.</p>
       <p className="contact-text">Do not hesitate to contact me!</p>
-      <button className="message-button">Write Messag</button>
+      <button className="message-button">Write Message</button>
       <div className="social-links">
         <a href="https://github.com/AhmadBahr"><FontAwesomeIcon icon={faGithub} /></a>
         <a href="https://www.youtube.com/channel/UCo_E8q-0x4ad-FKgKqP0fVQ"><FontAwesomeIcon icon={faYoutube} /></a>
