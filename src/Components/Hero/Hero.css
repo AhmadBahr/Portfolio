@@ -45,6 +45,7 @@
   
   .highlight-text-blink {
     color: #E65F78;
+    font-weight: bolder;
   }
   
   .hero-description {
@@ -64,7 +65,7 @@
   .highlight-text-blink::after {
   content: '|';
   margin-left: 5px;
-  animation: blink 1.5s infinite; /* Increase duration to 1.5s */
+  animation: blink 1.5s infinite; 
 }
 
 @keyframes blink {
