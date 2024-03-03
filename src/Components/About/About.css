@@ -56,7 +56,8 @@
     color: salmon;
     margin-right: 5px;
   }
-  .additional-info {
+
+.additional-info {
     margin-top: 20px;
   }
   
@@ -65,13 +66,22 @@
     border: 2px solid #333;
     border-radius: 5px;
     padding: 20px;
+    position: relative;
+    top: 4rem;
   }
   
-  .info-box p {
+  .info-item {
+    display: inline-block;
+    margin-right: 53px;
+    text-align: center;
+  }
+  
+  .info-item p {
     font-size: 16px;
-    margin: 10px 0;
+    margin: 5px 0;
   }
   
-  .info-box strong {
+  .info-item strong {
     color: salmon;
   }
+  
