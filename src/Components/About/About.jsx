@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 
-const About = () => {
+export const About = () => {
   return (
     <div className="about-container">
       <h2 className="about-header">About Me</h2>
@@ -11,14 +11,14 @@ const About = () => {
       <div className="about-details">
         <div className="column">
           <p><strong>Email:</strong> ahmad@example.com</p>
-          <p><strong>Location:</strong> Your City, Your Country</p>
+          <p><strong>Location:</strong> Beirut,LB</p>
           <p><strong>Age:</strong> 25</p>
-          <p><strong>GPA:</strong> 3.8</p>
+          <p><strong>GPA:</strong>2.11</p>
         </div>
         <div className="column">
-          <p><strong>Nationality:</strong> Your Nationality</p>
-          <p><strong>Education:</strong> Bachelor of Science in Computer Science</p>
-          <p><strong>Degree:</strong> Bachelor's</p>
+          <p><strong>Nationality:</strong>Lebanese</p>
+          <p><strong>Education:</strong>Computer & Applied Sciences</p>
+          <p><strong>Degree:</strong> BSc. Level 6 Extended Diploma</p>
         </div>
       </div>
       <div className="additional-info">
@@ -42,4 +42,3 @@ const About = () => {
   );
 }
 
-export default About;

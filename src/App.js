@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '././Shared/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
-import About from './Components/About/About';
+import { About } from './Components/About/About';
 import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
 import TechStack from './Components/TechStack/TechStack';

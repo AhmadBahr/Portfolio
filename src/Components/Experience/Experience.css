@@ -1,45 +1,45 @@
 .experience-container {
-    margin: 20px auto;
-    max-width: 600px;
-  }
+  margin: 20px auto;
+  max-width: 600px;
   
-  .experience-header {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .experience-item {
-    background-color: #f9f9f9;
-    border: 2px solid #333;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-  
-  .experience-title {
-    font-size: 20px;
-    font-weight: bold;
-    color: #555;
-    margin-bottom: 10px;
-  }
-  
-  .experience-company,
-  .experience-duration {
-    font-size: 16px;
-    color: #777;
-    margin-bottom: 5px;
-  }
-  
-  .experience-responsibilities {
-    margin-top: 10px;
-  }
-  
-  .experience-responsibilities li {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 5px;
-  }
-  
+}
+
+.experience-header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff; /* Change the text color to white */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.experience-item {
+  background-color: #000; /* Change the background color to black */
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.experience-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff; /* Change the text color to white */
+  margin-bottom: 10px;
+}
+
+.experience-company,
+.experience-duration {
+  font-size: 16px;
+  color: #ccc; /* Change the text color to a lighter shade of gray */
+  margin-bottom: 5px;
+}
+
+.experience-responsibilities {
+  margin-top: 10px;
+}
+
+.experience-responsibilities li {
+  font-size: 16px;
+  color: #ccc; /* Change the text color to a lighter shade of gray */
+  margin-bottom: 5px;
+}
