@@ -7,13 +7,13 @@
 .experience-header {
   font-size: 24px;
   font-weight: bold;
-  color: #fff; /* Change the text color to white */
+  color: #fff;
   margin-bottom: 20px;
   text-align: center;
 }
 
 .experience-item {
-  background-color: #000; /* Change the background color to black */
+  background-color: #000; 
   border: 2px solid #333;
   border-radius: 5px;
   padding: 20px;
@@ -23,14 +23,14 @@
 .experience-title {
   font-size: 20px;
   font-weight: bold;
-  color: #fff; /* Change the text color to white */
+  color: #fff;
   margin-bottom: 10px;
 }
 
 .experience-company,
 .experience-duration {
   font-size: 16px;
-  color: #ccc; /* Change the text color to a lighter shade of gray */
+  color: #ccc; 
   margin-bottom: 5px;
 }
 
@@ -40,6 +40,6 @@
 
 .experience-responsibilities li {
   font-size: 16px;
-  color: #ccc; /* Change the text color to a lighter shade of gray */
+  color: #ccc; 
   margin-bottom: 5px;
 }
