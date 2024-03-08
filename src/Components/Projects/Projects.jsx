@@ -8,25 +8,25 @@ import icon_9 from '../../assets/istockphoto-580129972-612x612.svg';
 const Projects = () => {
   const projectsData = [
     {
-      image: "icon_6",
+      image: icon_6,
       title: "E-commerce Website",
       description: "An intuitive e-commerce website with seamless navigation and secure payment processing",
       technologies: ["HTML", "CSS", "JS","React"]
     },
     {
-      image: "icon_7",
+      image: icon_7,
       title: "Shopping Cart",
       description: "Crafted an intuitive and visually appealing shopping cart UI with static props.",
       technologies: ["HTML", "CSS"]
     },
     {
-      image: "icon_8",
+      image: icon_8,
       title: "Rock Papers Scissors",
       description: "Developed an engaging Rock-Paper-Scissors game with sleek UI design, smooth animations, and responsive controls, offering players a fun and immersive gaming experience.",
       technologies: ["HTML", "CSS", "JS"]
     },
     {
-      image: "icon_9",
+      image: icon_9,
       title: "Super Ticktactoe Game",
       description: "A captivating UI for a Super Tic-Tac-Toe game, incorporating strategic game play elements and interactive features to engage players.",
       technologies: ["C#", "CSS", "HTML","JS","JQuery"]
@@ -39,7 +39,7 @@ const Projects = () => {
       <div className="Projects-list">
         {projectsData.map((project, index) => (
           <div className="Project-item" key={index}>
-            <img src={require(`../../assets/${project.image}`).default} alt={project.title} className="Project-image" />
+            <img src={project.image} alt={project.title} className="Project-image" />
             <div className="Project-details">
               <div className="Project-title">{project.title}</div>
               <div className="Project-subtitle">{project.subtitle}</div>
