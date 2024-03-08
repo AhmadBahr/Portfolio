@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import NavBar from '././Shared/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
 import { About } from './Components/About/About';
@@ -9,8 +9,14 @@ import Contact from './Components/Contact/Contact';
 import Footer from '././Shared/Footer/Footer';
 import Experience from '././Components/Experience/Experience';
 import Copyright from './Components/Copyrights/Copyright';
-
+import './App.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="App">
       <NavBar />

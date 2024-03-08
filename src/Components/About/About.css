@@ -1,11 +1,18 @@
 .about-container {
-    margin: 20px auto;
-    padding: 20px;
     border: 2px solid #333;
     border-radius: 5px;
     background-color: #333333;
-    max-width: 100rem;
+  margin-bottom: 4rem;
 
+  }
+  .about-desc-wrap{
+    display: flex;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 20px;
+    text-align: justify;
+    justify-content: center;
   }
   
   .about-header {
@@ -15,17 +22,18 @@
     margin-bottom: 10px;
     text-align: center;
     position: relative;
+    margin-bottom: 3rem;
   }
   
   .about-header::after {
     content: '';
     display: block;
-    width: 50%;
+    width: 5%;
     height: 2px;
     background-color: salmon;
     position: absolute;
     bottom: -8px;
-    left: 25%;
+    left: 47%;
   }
   
   .about-description {
@@ -33,11 +41,15 @@
     line-height: 1.5;
     color: white;
     margin-bottom: 20px;
+    width:50%
   }
-  
+  .about-deatils-cont{
+    width:50%;
+    display: flex;
+  }
   .about-details {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
   
   .column {
@@ -52,12 +64,14 @@
   
   .column strong {
     font-weight: bold;
-    color: salmon;
+    color: #E65F78;
     margin-right: 5px;
   }
 
 .additional-info {
-    margin-top: 20px;
+    margin-top: 7rem;
+    display:flex;
+    align-items: center;
   }
   
   .info-box {
@@ -65,28 +79,45 @@
     border: 2px solid #333;
     border-radius: 5px;
     padding: 20px;
-    position: relative;
-    top: 4rem;
-    width: 41rem;
+    width: 50%;
     margin: 0 auto;
+
+    display: flex;
+    justify-content: space-around;
+    padding:2rem
   }
   
   .info-item {
-    display: inline-block;
-    margin-right: 53px;
     text-align: center;
+  }
+
+  .info-item-text{
+    font-weight:400 ;
+    font-size: 20px;
   }
   
   .info-item p {
-    font-size: 20px; 
-    font-weight: bold; 
+    font-size: 64px; 
+    font-weight: 800; 
     margin: 5px 0;
     color: #E65F78;
   }
+
+
   
   .info-item strong {
     font-size: 20px; 
     font-weight: bold; 
     color: #E65F78;
   }
+.horizontal-line{
+  width:30%;
+  height:2px;
+  border-top: 3px solid #1F1F1F;
+  border-bottom:none;
+  border-left:none;
+  border-right:none
+
+}
+
   
