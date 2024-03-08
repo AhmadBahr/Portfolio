@@ -3,7 +3,7 @@ import NavBar from '././Shared/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
 import { About } from './Components/About/About';
 import Projects from './Components/Projects/Projects';
-import Skills from './Components/Skills/Skills';
+import Hobbies from './Components/Hobbies/Hobbies';
 import TechStack from './Components/TechStack/TechStack';
 import Contact from './Components/Contact/Contact';
 import Footer from '././Shared/Footer/Footer';
@@ -24,7 +24,7 @@ function App() {
       <About />
       <Experience/>
       <Projects />
-      <Skills />
+      <Hobbies />
       <TechStack/>
       <Contact />
       <Footer />
