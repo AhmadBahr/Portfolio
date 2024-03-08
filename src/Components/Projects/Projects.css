@@ -1,0 +1,83 @@
+.Projects-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .Projects-title:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #E65F78;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+  }
+  
+  .Project-item {
+    background-color: #1F1F1F !important;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 20px;
+    flex-basis: 30%;
+    margin: 1rem;
+  }
+  
+  .Project-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #E65F78;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  
+  .Projects-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+    justify-content: center;
+  }
+  
+  .Projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .Project-item {
+    width: 250px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .Technologies-title {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .Project-description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .Technology-item {
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+  

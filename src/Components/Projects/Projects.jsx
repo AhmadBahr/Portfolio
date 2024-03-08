@@ -1,16 +1,16 @@
 import React from 'react';
 import './Projects.css';
-import icon_6 from '../../assets/2241285 1.svg'
-import icon_7 from '../../assets/depositphotos_574826670-stock-illustration-shopping-cart-simple-design 1.svg'
-import icon_8 from '../../assets/ecommerce-website-icon-vector 1.svg'
-import icon_9 from '../../assets/istockphoto-580129972-612x612.svg'
+import icon_6 from '../../assets/2241285 1.svg';
+import icon_7 from '../../assets/depositphotos_574826670-stock-illustration-shopping-cart-simple-design 1.svg';
+import icon_8 from '../../assets/ecommerce-website-icon-vector 1.svg';
+import icon_9 from '../../assets/istockphoto-580129972-612x612.svg';
 
 const Projects = () => {
   const projectsData = [
     {
       image: "icon_6",
       title: "E-commerce Website",
-      description: " An intuitive e-commerce website with seamless navigation and secure payment processing",
+      description: "An intuitive e-commerce website with seamless navigation and secure payment processing",
       technologies: ["HTML", "CSS", "JS","React"]
     },
     {
@@ -39,7 +39,7 @@ const Projects = () => {
       <div className="Projects-list">
         {projectsData.map((project, index) => (
           <div className="Project-item" key={index}>
-            {/* <img src={require(`../../assets/${project.image}`).default} alt={project.title} className="Project-image" /> */}
+            <img src={require(`../../assets/${project.image}`).default} alt={project.title} className="Project-image" />
             <div className="Project-details">
               <div className="Project-title">{project.title}</div>
               <div className="Project-subtitle">{project.subtitle}</div>
