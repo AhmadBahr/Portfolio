@@ -74,3 +74,12 @@
   margin-bottom: 0.5rem;
   font-size: 24px;
 }
+
+.experience-details {
+  display: flex;
+
+}
+
+.experience-company {
+margin-right:10px;
+}

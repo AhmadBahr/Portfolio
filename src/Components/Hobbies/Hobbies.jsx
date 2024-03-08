@@ -30,8 +30,8 @@ const Hobbies = () => {
   ];
 
   return (
-    <div className='Hobbies-container-wrap'>
-      <div className='Hobbies-title'>Skills</div>
+    <div id="Hobbies" className='Hobbies-container-wrap'> 
+      <div className='Hobbies-title'>Hobbies</div>
       <div className="Hobbies-container">
         {data.map((hobby, index) => (
           <div className="Hobbies-item" key={index}>

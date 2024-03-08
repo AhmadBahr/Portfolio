@@ -38,4 +38,46 @@
     color: #555; 
     margin-top: 5px; 
   }
+
+  .icon-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+   .icon-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .icon-item {
+    margin: 50px; 
+  }
+
+  @keyframes moveIcons {
+    0% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    12.5% {
+      transform: translateX(100vw); 
+      opacity: 0; 
+    }
+    25% {
+      transform: translateX(-100vw); 
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0); 
+      opacity: 1;
+    }
+  }
+  
+  .icon-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: moveIcons 20s linear infinite; 
+  }
   

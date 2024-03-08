@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; 
+import { Link as ScrollLink } from 'react-scroll';
 import './Navbar.css'; 
-import Ahmad_CV from '../../assets/AhmadBahr_CurriculumVitae.pdf'; // Import your PDF file
+import Ahmad_CV from '../../assets/AhmadBahr_CurriculumVitae.pdf'; 
 
 const Navbar = () => {
   const handleDownloadResume = () => {
@@ -11,12 +13,14 @@ const Navbar = () => {
     <div className="navbar">
       <div className="logo">Logo</div>
       <div className="nav-links">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+       
+        <ScrollLink to="about" smooth={true} duration={500}>About</ScrollLink>
+        <ScrollLink to="experience" smooth={true} duration={500}>Experience</ScrollLink>
+        <ScrollLink to="Hobbies" smooth={true} duration={500}>Hobbies</ScrollLink>
+        <ScrollLink to="projects" smooth={true} duration={500}>Projects</ScrollLink>
+        <ScrollLink to="contact" smooth={true} duration={500}>Contact</ScrollLink> 
       </div>
+    
       <a href={Ahmad_CV} download="AhmadBahr_Curriculum.pdf">
         <button className="resume-button" onClick={handleDownloadResume}>Resume</button>
       </a>

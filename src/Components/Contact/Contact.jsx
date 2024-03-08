@@ -6,7 +6,7 @@ import { faGithub, faYoutube, faInstagram, faLinkedin, faTiktok } from '@fortawe
 
 const Contact = () => {
   return (
-    <div className="contact-container">
+    <div id="contact" className="contact-container">
       <h2 className="contact-title">Contact</h2>
       <hr className="underline" />
       <p className="contact-text">I am currently seeking employment or project offers.</p>
