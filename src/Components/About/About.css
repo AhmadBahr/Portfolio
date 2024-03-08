@@ -23,17 +23,19 @@
     text-align: center;
     position: relative;
     margin-bottom: 3rem;
+    left: 2rem;
+
   }
   
   .about-header::after {
     content: '';
     display: block;
-    width: 5%;
+    width: 3%;
     height: 2px;
-    background-color: salmon;
+    background-color: #E65F78;
     position: absolute;
     bottom: -8px;
-    left: 47%;
+    left: 48%;
   }
   
   .about-description {

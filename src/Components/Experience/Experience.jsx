@@ -2,30 +2,60 @@ import React from 'react';
 import './Experience.css';
 
 const Experience = () => {
-  
+  const data = [
+    {
+      title: "IT Maintenance",
+      company: "Ayoub Computers",
+      duration: "2022-2023",
+      responsibilities: [
+        "Ensuring the continuous functionality and security of digital systems, including networks and hardware, within an organization."
+      ]
+    },
+    {
+      title: "In-Room Dining Services",
+      company: "Kempinski Summerland Hotel & Resort",
+      duration: "2017-2019",
+      responsibilities: [
+        "Focusing on providing hotel guests with convenient and high-quality meal options delivered directly to their rooms, enhancing their overall experience."
+      ]
+    },
+    {
+      title: "Junior FrontEnd Web Developer",
+      company: "Quantum FinTech Leap ",
+      duration: " 2023-Present",
+      responsibilities: [
+        "Developed scalable backend solutions using Node.js and MongoDB.",
+        "Worked on optimizing database performance and query efficiency.",
+        "Participated in code reviews and provided constructive feedback to team members."
+      ]
+    },
+    {
+      title: "Volunteer",
+      company: "MUBS",
+      duration: "2021-2022",
+      responsibilities: [
+        "Volunteered regularly assisting with event planning and coordination. Contributed to various initiatives, showcasing dedication to community engagement and teamwork.hh"
+      ]
+    }
+  ];
+
   return (
+    <div className='exp-container-wrap'>
+      <div className='experience-title '>Experience</div>
     <div className="experience-container">
-      <h2 className="experience-header">Experience</h2>
-      <div className="experience-item">
-        <h3 className="experience-title"></h3>
-        <p className="experience-company"></p>
-        <p className="experience-duration"></p>
-        <ul className="experience-responsibilities">
-          <li>Developed responsive user interfaces using HTML, CSS, and JavaScript.</li>
-          <li>Collaborated with backend developers to integrate frontend with backend systems.</li>
-          <li>Implemented design mockups and wireframes into functional web applications.</li>
-        </ul>
-      </div>
-      <div className="experience-item">
-        <h3 className="experience-title"></h3>
-        <p className="experience-company"></p>
-        <p className="experience-duration"></p>
-        <ul className="experience-responsibilities">
-          <li>Assisted in the creation of wireframes, mockups, and prototypes.</li>
-          <li>Conducted user research and gathered feedback for iterative design improvements.</li>
-          <li>Collaborated with development team to ensure design feasibility and implementation.</li>
-        </ul>
-      </div>
+      {data.map((experience, index) => (
+        <div className="experience-item" key={index}>
+          <div className="experience-box-title">{experience.title}</div>
+          <div className="experience-company">{experience.company}</div>
+          <span className="experience-duration">{experience.duration}</span>
+          <ul className="experience-responsibilities">
+            {experience.responsibilities.map((responsibility, index) => (
+              <li key={index}>{responsibility}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
     </div>
   );
 }
