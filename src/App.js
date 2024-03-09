@@ -6,7 +6,6 @@ import Projects from './Components/Projects/Projects';
 import Hobbies from './Components/Hobbies/Hobbies';
 import TechStack from './Components/TechStack/TechStack';
 import Contact from './Components/Contact/Contact';
-import Footer from '././Shared/Footer/Footer';
 import Experience from '././Components/Experience/Experience';
 import Copyright from './Components/Copyrights/Copyright';
 import './App.css'
@@ -27,7 +26,6 @@ function App() {
       <Hobbies />
       <TechStack/>
       <Contact />
-      <Footer />
       <Copyright/>
     </div>
   );

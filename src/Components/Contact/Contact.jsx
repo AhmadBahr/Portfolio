@@ -3,15 +3,20 @@ import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faYoutube, faInstagram, faLinkedin, faTiktok } from '@fortawesome/free-brands-svg-icons';
 
-
 const Contact = () => {
+  const handleWriteMessage = () => {
+    const whatsappNumber = '+96176978968';
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=Hello%20there!`;
+    window.open(whatsappUrl, '_blank');
+  };
+
   return (
     <div id="contact" className="contact-container">
       <h2 className="contact-title">Contact</h2>
       <hr className="underline" />
       <p className="contact-text">I am currently seeking employment or project offers.</p>
       <p className="contact-text">Do not hesitate to contact me!</p>
-      <button className="message-button">Write Message</button>
+      <button className="message-button" onClick={handleWriteMessage}>Write Message</button>
       <div className="social-links">
         <a href="https://github.com/AhmadBahr"><FontAwesomeIcon icon={faGithub} /></a>
         <a href="https://www.youtube.com/channel/UCo_E8q-0x4ad-FKgKqP0fVQ"><FontAwesomeIcon icon={faYoutube} /></a>

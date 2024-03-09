@@ -6,35 +6,41 @@ const Experience = () => {
     {
       title: "IT Maintenance",
       company: "Ayoub Computers",
-      duration: " / 2022-2023",
+      duration: "2022-2023",
       responsibilities: [
-        "Ensuring the continuous functionality and security of digital systems, including networks and hardware, within an organization."
+        "Ensured functionality and security of digital systems and hardware.",
+        "Performed continuous maintenance to uphold system reliability.",
+        "Addressed technical issues promptly to minimize disruptions."
       ]
     },
     {
       title: "In-Room Dining Services",
       company: "Kempinski Summerland Hotel & Resort",
-      duration: " / 2017-2019",
+      duration: "2017-2019",
       responsibilities: [
-        "Focusing on providing hotel guests with convenient and high-quality meal options delivered directly to their rooms, enhancing their overall experience."
+        "Delivered high-quality meal options directly to guests' rooms.",
+        "Enhanced guest experience by providing convenient dining services.",
+        "Maintained service standards to ensure guest satisfaction."
       ]
     },
     {
       title: "Junior FrontEnd Web Developer",
       company: "Quantum FinTech Leap ",
-      duration: " / 2023-Present",
+      duration: "  2023-Present",
       responsibilities: [
-        "Developed scalable backend solutions using Node.js and MongoDB.",
-        "Worked on optimizing database performance and query efficiency.",
-        "Participated in code reviews and provided constructive feedback to team members."
+        "Created responsive web interfaces using HTML, CSS, and JavaScript.",
+        "Integrated frontend with backend APIs for seamless data flow.",
+        "Optimized website performance and collaborated with design teams."
       ]
     },
     {
       title: "Volunteer",
       company: "MUBS",
-      duration: " / 2021-2022",
+      duration:  " 2021-2022",
       responsibilities: [
-        "Volunteered regularly assisting with event planning and coordination. Contributed to various initiatives, showcasing dedication to community engagement and teamwork.hh"
+        "Regularly volunteer for event planning and coordination.",
+        "Contribute to various initiatives, demonstrating dedication to community engagement.",
+        "Collaborate effectively with team members to achieve common goals."
       ]
     }
   ];
@@ -48,7 +54,7 @@ const Experience = () => {
             <div className="experience-box-title">{experience.title}</div>
             <div className="experience-details">
               <div className="experience-company">{experience.company}</div>
-              <span className="experience-duration"> {experience.duration}</span>
+              <span className="experience-duration"> / {experience.duration}</span>
             </div>
             <ul className="experience-responsibilities">
               {experience.responsibilities.map((responsibility, index) => (

@@ -10,22 +10,22 @@ const Hobbies = () => {
     {
       image: icon_2,
       title: "Gaming",
-      subtitle: "Ensuring the continuous functionality and security of digital systems, including networks and hardware, within an organization.",
+      subtitle: "Passionate about exploring immersive virtual worlds and mastering various gaming strategies."
     },
     {
       image: icon_3,
       title: "Fitness Enthusiast",
-      subtitle: "Focusing on providing hotel guests with convenient and high-quality meal options delivered directly to their rooms, enhancing their overall experience.",
+      subtitle: "Dedicated to maintaining a healthy lifestyle through regular exercise and physical activities."
     },
     {
       image: icon_4,
-      title: "Fitness Enthusiast",
-      subtitle: "Developed scalable backend solutions using Node.js and MongoDB. Worked on optimizing database performance and query efficiency. Participated in code reviews and provided constructive feedback to team members.",
+      title: "Avid Series Watcher",
+      subtitle: "Enjoys binge-watching TV series and staying up-to-date with the latest episodes and plot twists."
     },
     {
       image: icon_5,
       title: "Podcast Enjoyer",
-      subtitle: "Volunteered regularly assisting with event planning and coordination. Contributed to various initiatives, showcasing dedication to community engagement and teamwork.",
+      subtitle: "Finds joy and relaxation in listening to a diverse range of podcasts, exploring different topics and perspectives."
     }
   ];
 

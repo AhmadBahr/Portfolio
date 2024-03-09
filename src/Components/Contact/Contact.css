@@ -14,8 +14,8 @@
 .underline {
   border: 1.5px solid #E65F78;
   width: 40px;
-  margin: 20px auto;
-  margin-bottom: 2rem;
+  margin: -20px auto;
+  margin-bottom: 0rem;
 }
 
 .contact-text {
@@ -34,6 +34,7 @@
 
 .social-links {
   margin-top: 20px;
+  margin-bottom: 1rem;
 }
 
 .social-links a {

@@ -2,7 +2,7 @@
     border: 2px solid #333;
     border-radius: 5px;
     background-color: #333333;
-  margin-bottom: 4rem;
+    margin-bottom: 4rem;
 
   }
   .about-desc-wrap{
@@ -43,10 +43,10 @@
     line-height: 1.5;
     color: white;
     margin-bottom: 20px;
-    width: 100%; /* Adjust width as needed */
+    width: 35%;
   }
   .about-deatils-cont{
-    width:50%;
+    width: 35%;
     display: flex;
   }
   .about-details {
@@ -110,14 +110,14 @@
     font-weight: bold; 
     color: #E65F78;
   }
-.horizontal-line{
-  width:30%;
-  height:2px;
-  border-top: 3px solid #1F1F1F;
-  border-bottom:none;
-  border-left:none;
-  border-right:none
 
+  .horizontal-line{
+    width:30%;
+    height:2px;
+    border-top: 3px solid #1F1F1F;
+    border-bottom:none;
+    border-left:none;
+    border-right:none
 }
 
   
