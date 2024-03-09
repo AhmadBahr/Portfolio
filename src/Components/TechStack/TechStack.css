@@ -21,12 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    flex-wrap: wrap;
-  }
-  
-  .icon-item {
-    margin: 20px; 
-    text-align: center; 
+    flex-wrap: nowrap; 
   }
   
   .icon {
@@ -51,7 +46,8 @@
   }
   
   .icon-item {
-    margin: 50px; 
+    margin: 20px 10px;
+    text-align: center; 
   }
 
   @keyframes moveIcons {
