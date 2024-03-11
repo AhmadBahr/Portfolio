@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Hobbies.css';
 import icon_2 from '../../assets/icon_2.svg';
 import icon_3 from '../../assets/icon_3.svg';
@@ -30,11 +30,11 @@ const Hobbies = () => {
   ];
 
   return (
-    <div id="Hobbies" className='Hobbies-container-wrap'> 
+    <div id="Hobbies" className='Hobbies-container-wrap'>
       <div className='Hobbies-title'>Hobbies</div>
       <div className="Hobbies-container">
         {data.map((hobby, index) => (
-          <div className="Hobbies-item" key={index}>
+          <div className="Hobbies-item animated" key={index}>
             <div className="Hobby-box">
               <img src={hobby.image} alt={hobby.title} className="Hobbies-image" />
             </div>
