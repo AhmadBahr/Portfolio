@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './Projects.css';
 import icon_6 from '../../assets/2241285 1.svg';
 import icon_7 from '../../assets/depositphotos_574826670-stock-illustration-shopping-cart-simple-design 1.svg';
@@ -6,6 +8,13 @@ import icon_8 from '../../assets/ecommerce-website-icon-vector 1.svg';
 import icon_9 from '../../assets/istockphoto-580129972-612x612.svg';
 
 const Projects = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // You can change this value for the animation duration
+      once: true // Whether animation should only happen once while scrolling down
+    });
+  }, []);
+
   const projectsData = [
     {
       image: icon_6,
@@ -34,7 +43,7 @@ const Projects = () => {
   ];
 
   return (
-    <div id="projects" className="Projects-container">
+    <div id="projects" className="Projects-container" data-aos="fade-up">
       <div className="Projects-title">Projects</div>
       <div className="Projects-list">
         {projectsData.map((project, index) => (
