@@ -52,4 +52,23 @@
   transition: opacity 500ms;
 }
 
+@media screen and (max-width: 769px) {
+  .contact-title {
+    font-size: 32px; 
+  }
+
+  .underline {
+    width: 30px; 
+  }
+
+  .message-button {
+    font-size: 16px; 
+    padding: 8px 16px; 
+  }
+
+  .social-links a {
+    font-size: 20px;
+  }
+}
+
 
