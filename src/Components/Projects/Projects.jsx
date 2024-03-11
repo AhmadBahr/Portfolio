@@ -10,8 +10,8 @@ import icon_9 from '../../assets/istockphoto-580129972-612x612.svg';
 const Projects = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // You can change this value for the animation duration
-      once: true // Whether animation should only happen once while scrolling down
+      duration: 1000,
+      once: true
     });
   }, []);
 
