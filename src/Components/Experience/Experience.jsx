@@ -46,7 +46,7 @@ const Experience = () => {
   ];
 
   return (
-    <div id="experience" className='exp-container-wrap'> 
+    <div id="experience" className='exp-container-wrap' data-aos="zoom-in">
       <div className='experience-title'>Experience</div>
       <div className="experience-container">
         {data.map((experience, index) => (
