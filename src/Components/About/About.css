@@ -19,13 +19,11 @@
     font-size: 24px;
     font-weight: bold;
     color: #fff;
-    margin-bottom: 10px;
     text-align: center;
     position: relative;
     margin-bottom: 3rem;
     left: 2rem;
-    width:90;
-
+    width: 90%;
   }
   
   .about-header::after {
@@ -121,4 +119,36 @@
     border-right:none
 }
 
+@media screen and (max-width: 769px) {
+  .about-header {
+    width: 100%;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-description {
+    width: 100%;
+  }
+
+  .about-deatils-cont,
+  .info-box {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .column p,
+  .info-item-text,
+  .info-item p {
+    font-size: 14px;
+  }
+
+  .info-item p {
+    font-size: 48px;
+  }
+
+  .horizontal-line {
+    width: 20%;
+  }
+}
   
