@@ -80,3 +80,9 @@
   display: inline-block;
   margin-left: 0.5rem;
 }
+@media screen and (max-width: 769px) {
+  .Project-item {
+    flex-basis: calc(100% - 20px);
+    width: calc(100% - 20px);
+  }
+}
