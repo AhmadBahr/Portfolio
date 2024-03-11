@@ -3,14 +3,14 @@ import './About.css';
 
 export const About = () => {
   return (
-    <div id="about" className="about-container" data-aos="fade-down">
-      <h2 className="about-header">About Me</h2>
+    <div id="about" className="about-container">
+      <h2 className="about-header" data-aos="fade-up">About Me</h2>
       <div className='about-desc-wrap'>
-        <p className="about-description">
+        <p className="about-description" data-aos="fade-up">
           I'm Ahmad Bahr, a junior frontend developer passionate about creating user-friendly interfaces. Proficient in HTML, CSS, and JavaScript, I enjoy collaborating on projects that blend creativity with functionality. With a knack for problem-solving and a drive for continuous learning, I'm eager to contribute to dynamic teams and bring innovative ideas to life.
         </p>
       </div>
-      <div className="about-details">
+      <div className="about-details" data-aos="fade-up">
         <div className='about-deatils-cont'>
           <div className="column">
             <p><strong>Email:</strong> abahr431@gmail.com</p>
@@ -26,7 +26,7 @@ export const About = () => {
         </div>
       </div>
 
-      <div className="additional-info" data-aos="fade-up" data-aos-duration="3000">
+      <div className="additional-info" data-aos="fade-up">
         <hr className='horizontal-line' />
         <div className="info-box">
           <div className="info-item">
