@@ -83,3 +83,10 @@
 .experience-company {
 margin-right:10px;
 }
+
+@media screen and (max-width: 769px) {
+  .experience-item {
+    flex-basis: 100%;
+    margin: 1rem 0;
+  }
+}
