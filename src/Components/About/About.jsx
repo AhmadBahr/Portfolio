@@ -15,8 +15,7 @@ export const About = () => {
           <div className="column">
             <p><strong>Email:</strong> abahr431@gmail.com</p>
             <p><strong>Location:</strong> Beirut, LB</p>
-            <p><strong>Age:</strong> 25</p>
-            <p><strong>GPA:</strong> 2.11</p>
+            <p><strong>Blood Type:</strong>B+</p>
           </div>
           <div className="column" style={{ marginLeft: '1rem' }}>
             <p><strong>Nationality:</strong> Lebanese</p>
