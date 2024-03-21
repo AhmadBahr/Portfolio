@@ -1,5 +1,7 @@
 import React from 'react';
 import './About.css';
+import { Transition } from 'react-transition-group';
+
 
 export const About = () => {
   return (
