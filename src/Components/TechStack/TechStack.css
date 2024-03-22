@@ -5,11 +5,24 @@
   }
   
   .tech-stack-header {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 20px;
-  }
+    position: relative; 
+}
+
+.tech-stack-header:after {
+  content: '';
+  display: block;
+  width: 6%;
+  height: 2px;
+  background-color: #E65F78;
+  position: absolute;
+  bottom: -8px;
+  left: 45rem;
+}
+
 
   .tech-stack-subtitle {
     font-size: 18px;
@@ -33,11 +46,6 @@
     color: #555; 
     margin-top: 5px; 
   }
-
-  .icon-column {
-    display: flex;
-    flex-direction: column;
-  }
   
    .icon-column {
     display: flex;
@@ -50,25 +58,6 @@
     text-align: center; 
   }
 
-  @keyframes moveIcons {
-    0% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-    12.5% {
-      transform: translateX(100vw); 
-      opacity: 0; 
-    }
-    25% {
-      transform: translateX(-100vw); 
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0); 
-      opacity: 1;
-    }
-  }
-  
   .icon-row {
     display: flex;
     flex-direction: column;
@@ -79,7 +68,7 @@
 
 @media screen and (max-width: 769px) {
   .icon-item {
-    flex-basis: calc(50% - 20px); /* Adjust the width for better responsiveness */
+    flex-basis: calc(50% - 20px);
   }
 }
   
