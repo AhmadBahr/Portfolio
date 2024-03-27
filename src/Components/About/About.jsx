@@ -15,7 +15,7 @@ export const About = () => {
       <div className="about-details" data-aos="fade-up">
         <div className='about-deatils-cont'>
           <div className="column">
-            <p><strong>Email:</strong> abahr431@gmail.com</p>
+            <p><strong>Email:</strong> ahmadbah.r@outlook.com </p>
             <p><strong>Location:</strong> Beirut, LB</p>
             <p><strong>Blood Type:</strong>B+</p>
           </div>
