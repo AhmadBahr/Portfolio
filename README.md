@@ -7,12 +7,12 @@
 
 ## General Info
 This portfolio showcases my projects and skills as a developer/designer. It serves as a hub for potential employers or collaborators to learn more about me and my work.
+
 ## Technologies Used
 - HTML
 - CSS
 - React
   
-
 ## Setup:
 To set up this portfolio on your local machine, follow these steps:
 
