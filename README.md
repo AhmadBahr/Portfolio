@@ -24,7 +24,7 @@ Install dependencies: npm install (if using React) or simply open index.html in 
 - Hero Section
 A visually appealing section at the top of the page with a background image or video.
 Briefly introduce yourself and what you do.
--About Me
+- About Me
 Provide a concise overview of yourself, your skills, experiences, and interests.
 Highlight your strengths and what sets you apart from others in your field.
 - Experience
