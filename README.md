@@ -18,7 +18,7 @@ To set up this portfolio on your local machine, follow these steps:
 
 Clone the repository: git clone https://github.com/your-username/portfolio.git
 Navigate to the project directory: cd portfolio
-Install dependencies: npm install (if using React) or simply open index.html in your browser.
+Install dependencies: npm install and npm start in your browser.
 
 ## Features
 - Hero Section
