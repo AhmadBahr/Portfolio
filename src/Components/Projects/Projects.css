@@ -82,7 +82,32 @@
 }
 @media screen and (max-width: 769px) {
   .Project-item {
-    flex-basis: calc(100% - 20px);
-    width: calc(100% - 20px);
+    flex-basis: calc(100% - 20px); 
+    width: calc(100% - 20px); 
+    margin: 10px; 
+    max-width: calc(100% - 20px);
+    box-sizing: border-box; 
+    text-align: center;
+  }
+
+  .Projects-container {
+    margin-top: 1rem; 
+  }
+
+  .Project-title,
+  .Project-description,
+  .Technologies-title,
+  .Technology-item {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  .Project-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15rem;    
   }
 }
+
+
