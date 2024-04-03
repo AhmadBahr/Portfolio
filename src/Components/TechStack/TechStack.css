@@ -15,12 +15,12 @@
 .tech-stack-header:after {
 content: '';
 display: block;
-width: 6%;
+width: 4%;
 height: 2px;
 background-color: #E65F78;
 position: absolute;
 bottom: -8px;
-left: 45rem;
+left: 57rem;
 }
 
 
