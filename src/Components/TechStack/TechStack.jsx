@@ -1,136 +1,84 @@
-import React, { useEffect } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { 
-  faHtml5, 
-  faCss3Alt, 
-  faJs, 
-  faReact, 
+import React, { useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHtml5,
+  faCss3Alt,
+  faJs,
+  faReact,
   faNodeJs,
   faPython,
-  faAngular,
-  faVuejs,
-  faBootstrap,
-  faSass,
   faJava,
   faGit,
-  faLinux,
-  faWindows,
   faDocker,
-  faFigma,
-  faGoogle,
-  faHtml5 as faHtml,
-  faAdobe,
+  faLinux,
   faMicrosoft,
-  // faDatabase,
-  // faDatabase as faMysql,
-  // faDatabase as faPostgres,
-  // faFileImage, 
-  // faCodeBranch,
-  // faDungeon,
-  // faTint,
-} from '@fortawesome/free-brands-svg-icons';
-import { faBabel, faCode, faFileCode, faFilePdf, faFileWord, faStar, faUserShield, faUsers, faLaptopCode, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
-import './TechStack.css';
+  faBootstrap,
+  faSass,
+  faFigma,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+import "./TechStack.css";
+import photoshop from "../../assets/icons8-photoshop.svg";
+import illustrator from "../../assets/icons8-illustrator.svg";
+import jest from "../../assets/icons8-jest-can-collect-code-coverage-information-from-entire-projects-24.png";
+import postman from "../../assets/icons8-postman-is-the-only-complete-api-development-environment-24.png";
+import sql from "../../assets/icons8-sql-50.png";
+import mongo from "../../assets/icons8-database-50.png";
+import postgres from "../../assets/postgresql.svg";
+import expressjs from "../../assets/expressjs.svg";
+import git from "../../assets/git.svg";
+import github from "../../assets/github.svg";
+import babel from "../../assets/babel.svg";
+import slack from "../../assets/slack.svg";
+import jira from "../../assets/jira.svg";
 
 const TechStack = () => {
   useEffect(() => {
-    const AOS = require('aos');
-    AOS.init(); 
+    const AOS = require("aos");
+    AOS.init();
   }, []);
 
   return (
-    <div id="tech-stack" className="tech-stack-container"> 
+    <div id="tech-stack" className="tech-stack-container">
       <h2 className="tech-stack-header">Tech Stack</h2>
       <p className="tech-stack-subtitle">Technologies I've Been Working With</p>
       <div className="icon-row">
-        <div className="icon-column" data-aos="fade-right">
-          <div className="icon-item" title="HTML5">
-            <FontAwesomeIcon icon={faHtml5} className="icon" />
-          </div>
-          <div className="icon-item" title="CSS3">
-            <FontAwesomeIcon icon={faCss3Alt} className="icon" />
-          </div>
-          <div className="icon-item" title="JavaScript">
-            <FontAwesomeIcon icon={faJs} className="icon" />
-          </div>
-          <div className="icon-item" title="React">
-            <FontAwesomeIcon icon={faReact} className="icon" />
-          </div>
-          <div className="icon-item" title="Node.js">
-            <FontAwesomeIcon icon={faNodeJs} className="icon" />
-          </div>
-          <div className="icon-item" title="Python">
-            <FontAwesomeIcon icon={faPython} className="icon" />
-          </div>
-          <div className="icon-item" title="Angular">
-            <FontAwesomeIcon icon={faAngular} className="icon" />
-          </div>
-          <div className="icon-item" title="Vue.js">
-            <FontAwesomeIcon icon={faVuejs} className="icon" />
-          </div>
-          <div className="icon-item" title="Bootstrap">
-            <FontAwesomeIcon icon={faBootstrap} className="icon" />
-          </div>
-          <div className="icon-item" title="Sass">
-            <FontAwesomeIcon icon={faSass} className="icon" />
-          </div>
-          <div className="icon-item" title="Java">
-            <FontAwesomeIcon icon={faJava} className="icon" />
-          </div>
-          <div className="icon-item" title="Git">
-            <FontAwesomeIcon icon={faGit} className="icon" />
-          </div>
-          <div className="icon-item" title="Linux">
-            <FontAwesomeIcon icon={faLinux} className="icon" />
-          </div>
-          <div className="icon-item" title="Windows">
-            <FontAwesomeIcon icon={faWindows} className="icon" />
-          </div>
-          <div className="icon-item" title="Docker">
-            <FontAwesomeIcon icon={faDocker} className="icon" />
-          </div>
-          <div className="icon-item" title="Figma">
-            <FontAwesomeIcon icon={faFigma} className="icon" />
-          </div>
-          <div className="icon-item" title="Google">
-            <FontAwesomeIcon icon={faGoogle} className="icon" />
-          </div>
+        <div className="icon-column fade-right" data-aos="fade-right">
+          <FontAwesomeIcon icon={faHtml5} title="HTML" className="icon" />
+          <FontAwesomeIcon icon={faCss3Alt} title="CSS" className="icon" />
+          <FontAwesomeIcon icon={faJs} title="JavaScript" className="icon" />
+          <FontAwesomeIcon icon={faReact} title="React" className="icon" />
+          <FontAwesomeIcon icon={faNodeJs} title="Node.js" className="icon" />
+          <FontAwesomeIcon icon={faPython} title="Python" className="icon" />
+          <FontAwesomeIcon icon={faJava} title="Java" className="icon" />
+          <FontAwesomeIcon icon={faGit} title="Git" className="icon" />
+          <FontAwesomeIcon icon={faDocker} title="Docker" className="icon" />
+          <FontAwesomeIcon icon={faLinux} title="Linux" className="icon" />
+          <FontAwesomeIcon icon={faMicrosoft} title="Microsoft" className="icon" />
+          <img src={slack} alt="Slack" title="Slack" className="icon" />         
+          <img src={jira} alt="Jira" title="Jira" className="icon" />         
+
         </div>
-        <div className="icon-column" data-aos="fade-left">
-          <div className="icon-item" title="HTML">
-            <FontAwesomeIcon icon={faHtml} className="icon" />
-          </div>
-          {/* <div className="icon-item" title="Adobe Illustrator">
-            <FontAwesomeIcon icon={faAdobe} className="icon" />
-          </div> */}
-          <div className="icon-item" title="Microsoft">
-            <FontAwesomeIcon icon={faMicrosoft} className="icon" />
-          </div>
-          {/* <div className="icon-item" title="Database">
-            <FontAwesomeIcon icon={faDb} className="icon" />
-          </div> */}
-          {/* <div className="icon-item" title="MySQL">
-            <FontAwesomeIcon icon={faMysql} className="icon" />
-          </div> */}
-          {/* <div className="icon-item" title="PostgreSQL">
-            <FontAwesomeIcon icon={faPostgres} className="icon" />
-          </div> */}
-          {/* <div className="icon-item" title="Photoshop">
-            <FontAwesomeIcon icon={faFileImage} className="icon" />
-          </div> */}
-          {/* <div className="icon-item" title="Redux">
-            <FontAwesomeIcon icon={faCodeBranch} className="icon" />
-          </div> */}
-          {/* <div className="icon-item" title="SAS">
-            <FontAwesomeIcon icon={faDungeon} className="icon" />
-          </div> */}
-          {/* <div className="icon-item" title="Tailwind CSS">
-            <FontAwesomeIcon icon={faTint} className="icon" />
-          </div> */}
+        <div className="icon-column fade-left" data-aos="fade-left">
+          <FontAwesomeIcon icon={faBootstrap} title="Bootstrap" className="icon" />
+          <FontAwesomeIcon icon={faSass} title="Sass" className="icon" />
+          <img src={photoshop} alt="Photoshop" title="Photoshop" className="icon" />          
+          <FontAwesomeIcon icon={faFigma} title="Figma" className="icon" />
+          <FontAwesomeIcon icon={faGithub} title="GitHub" className="icon" />
+          <img src={jest} alt="Jest" title="Jest" className="icon" />
+          <img src={postman} alt="Postman" title="Postman" className="icon" />
+          <img src={sql} alt="SQL" title="SQL" className="icon" />
+          <img src={mongo} alt="MongoDB" title="MongoDB" className="icon" />
+          <img src={illustrator} alt="Adobe Illustrator" title="Adobe Illustrator" className="icon" />
+          <img src={postgres} alt="PostgreSQL" title="PostgreSQL" className="icon" />
+          <img src={expressjs} alt="Express.js" title="Express.js" className="icon" />
+          <img src={git} alt="Git" title="Git" className="icon" />
+          <img src={github} alt="GitHub" title="GitHub" className="icon" />
+          <img src={babel} alt="Babel" title="Babel" className="icon" />
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default TechStack;
