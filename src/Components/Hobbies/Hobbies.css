@@ -113,5 +113,9 @@
     width: 62%;
     margin-left: 1.5rem;
   }
+  .Hobby-box{
+    display: flex;
+    flex-direction: column;
+  }
 }
   
