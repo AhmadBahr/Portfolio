@@ -9,7 +9,7 @@ export const About = () => {
       <h2 className="about-header" data-aos="fade-up">About Me</h2>
       <div className='about-desc-wrap'>
         <p className="about-description" data-aos="fade-up">
-          I'm Ahmad Bahr, a junior frontend developer passionate about creating user-friendly interfaces. Proficient in HTML, CSS, and JavaScript, I enjoy collaborating on projects that blend creativity with functionality. With a knack for problem-solving and a drive for continuous learning, I'm eager to contribute to dynamic teams and bring innovative ideas to life.
+          I'm Ahmad Bahr, Frontend Web Developer passionate about creating user-friendly interfaces. Proficient in HTML, CSS, and JavaScript, I enjoy collaborating on projects that blend creativity with functionality. With a knack for problem-solving and a drive for continuous learning, I'm eager to contribute to dynamic teams and bring innovative ideas to life.
         </p>
       </div>
       <div className="about-details" data-aos="fade-up">
