@@ -32,7 +32,7 @@ const Contact = () => {
           <a href="https://github.com/AhmadBahr"><FontAwesomeIcon icon={faGithub} /></a>
           <a href="https://www.youtube.com/channel/UCo_E8q-0x4ad-FKgKqP0fVQ"><FontAwesomeIcon icon={faYoutube} /></a>
           <a href="https://www.instagram.com/attotame"><FontAwesomeIcon icon={faInstagram} /></a>
-          <a href="link-to-your-linkedin-profile"><FontAwesomeIcon icon={faLinkedin} /></a>
+          <a href="https://www.linkedin.com/in/ahmad-bahr-064a98301/"><FontAwesomeIcon icon={faLinkedin} /></a>
           <a href="https://www.tiktok.com/@atto_toks"><FontAwesomeIcon icon={faTiktok} /></a>
         </div>
       </div>
