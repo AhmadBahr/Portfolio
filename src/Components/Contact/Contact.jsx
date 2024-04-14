@@ -5,6 +5,7 @@ import { CSSTransition } from 'react-transition-group';
 import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faYoutube, faInstagram, faLinkedin, faTiktok } from '@fortawesome/free-brands-svg-icons';
+import { faTwitch } from '@fortawesome/free-brands-svg-icons/faTwitch'; // Import Twitch icon
 
 const Contact = () => {
   useEffect(() => {
@@ -34,6 +35,7 @@ const Contact = () => {
           <a href="https://www.instagram.com/attotame"><FontAwesomeIcon icon={faInstagram} /></a>
           <a href="https://www.linkedin.com/in/ahmad-bahr-064a98301/"><FontAwesomeIcon icon={faLinkedin} /></a>
           <a href="https://www.tiktok.com/@atto_toks"><FontAwesomeIcon icon={faTiktok} /></a>
+          <a href="https://www.twitch.tv/atto_tame"><FontAwesomeIcon icon={faTwitch} /></a> {/* Replace "yourtwitchusername" with your actual Twitch username */}
         </div>
       </div>
     </CSSTransition>
