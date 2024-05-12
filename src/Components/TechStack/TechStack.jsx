@@ -27,10 +27,10 @@ import mongo from "../../assets/icons8-database-50.png";
 import postgres from "../../assets/postgresql.svg";
 import expressjs from "../../assets/expressjs.svg";
 import git from "../../assets/git.svg";
-import github from "../../assets/github.svg";
 import babel from "../../assets/babel.svg";
 import slack from "../../assets/slack.svg";
 import jira from "../../assets/jira.svg";
+
 
 const TechStack = () => {
   useEffect(() => {
@@ -72,8 +72,8 @@ const TechStack = () => {
           <img src={postgres} alt="PostgreSQL" title="PostgreSQL" className="icon" />
           <img src={expressjs} alt="Express.js" title="Express.js" className="icon" />
           <img src={git} alt="Git" title="Git" className="icon" />
-          <img src={github} alt="GitHub" title="GitHub" className="icon" />
           <img src={babel} alt="Babel" title="Babel" className="icon" />
+
         </div>
       </div>
     </div>
