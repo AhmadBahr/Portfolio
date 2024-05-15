@@ -14,16 +14,6 @@ const Experience = () => {
       ]
     },
     {
-      title: "In-Room Dining Services",
-      company: "Kempinski Summerland Hotel & Resort",
-      duration: "2017-2019",
-      responsibilities: [
-        "Delivered high-quality meal options directly to guests' rooms.",
-        "Enhanced guest experience by providing convenient dining services.",
-        "Maintained service standards to ensure guest satisfaction."
-      ]
-    },
-    {
       title: "Junior FrontEnd Web Developer",
       company: "Quantum FinTech Leap ",
       duration: "  2023-Present",

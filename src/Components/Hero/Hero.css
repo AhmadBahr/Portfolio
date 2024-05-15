@@ -1,11 +1,12 @@
 .hero-container {
-    background-color: #1F1F1F;
+  background-image: linear-gradient(147deg, #333, #222);
     padding: 50px 0; 
     text-align: center;
   }
   
   .hero-content {
-    display: flex;
+    background-image: linear-gradient(147deg, #333, #222);
+      display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -59,9 +60,10 @@
     width: 110px; 
     height: 100px; 
     margin-right: 10px;
-    border-radius: 50%; 
+    border-radius: 50%;
+    object-fit: cover;
   }
-
+  
   .highlight-text-blink::after {
   content: '|';
   margin-left: 5px;

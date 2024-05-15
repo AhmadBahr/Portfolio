@@ -26,7 +26,6 @@ const Contact = () => {
       <div id="contact" className="contact-container" data-aos="fade-up">
         <h2 className="contact-title">Contact</h2>
         <hr className="underline" />
-        <p className="contact-text">I am currently seeking employment or project offers.</p>
         <p className="contact-text">Do not hesitate to contact me!</p>
         <button className="message-button" onClick={handleWriteMessage}>Write Message</button>
         <div className="social-links">

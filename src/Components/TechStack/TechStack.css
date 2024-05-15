@@ -1,6 +1,6 @@
 .tech-stack-container {
   margin: 20px auto;
-  text-align: center; 
+  text-align: center;
   background-color: #333;
 }
 
@@ -9,54 +9,32 @@
   font-weight: bold;
   color: #ffffff;
   margin-bottom: 20px;
-  position: relative; 
+  position: relative;
 }
 
 .tech-stack-header:after {
-content: '';
-display: block;
-width: 4%;
-height: 2px;
-background-color: #E65F78;
-position: absolute;
-bottom: -8px;
-left: 57rem;
+  content: '';
+  display: block;
+  width: 4%;
+  height: 2px;
+  background-color: #e65f78;
+  position: absolute;
+  bottom: -8px;
+  left: 46rem;
 }
 
-
 .tech-stack-subtitle {
-  font-size: 18px;
+  font-size: 25px;
   color: white;
   margin-bottom: 20px;
 }
 
-.icon-container {
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  flex-wrap: nowrap; 
-}
-
-.icon {
-  font-size: 60px; 
-}
-
-.icon-title {
-  font-size: 18px; 
-  color: #555; 
-  margin-top: 5px; 
-}
-
- .icon-column {
+.icon-column {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   gap: 10px;
-}
-
-.icon-item {
-  margin: 20px 10px;
-  text-align: center; 
+  justify-content: center;
+  align-items: center;
 }
 
 .icon-row {
@@ -64,7 +42,22 @@ left: 57rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: moveIcons 20s linear infinite; 
+  animation: moveIcons 20s linear infinite;
+}
+
+.icon {
+  font-size: 30px; 
+}
+
+.icon-item {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.icon-title {
+  font-size: 18px;
+  color: #555;
+  margin-top: 5px;
 }
 
 @media screen and (max-width: 769px) {
@@ -74,17 +67,18 @@ left: 57rem;
   }
 
   .icon-item {
-    margin: 20px 0; 
+    margin: 20px 0;
     width: 100%;
   }
+
   .tech-stack-header:after {
     content: '';
     display: block;
     width: 20%;
     height: 2px;
-    background-color: #E65F78;
+    background-color: #e65f78;
     position: absolute;
     bottom: -8px;
     left: 40%;
-    }
+  }
 }
