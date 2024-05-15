@@ -10,7 +10,6 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <div className="logo">Logo</div>
       <div className="nav-links">
        
         <ScrollLink to="about" smooth={true} duration={500}>About</ScrollLink>

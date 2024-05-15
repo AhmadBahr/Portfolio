@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './Hero.css';
 import icon1 from '../../assets/icon_1.svg';
-// import icon2 from '../../assets/icon2.svg'; 
+import ahmad_pic from '../../assets/ahmad_pic.png'; 
 
 const Hero = () => {
   useEffect(() => {
@@ -21,7 +21,7 @@ const Hero = () => {
   return (
     <div className="hero-container">
       <div className="hero-content">
-      <img src={'icon2'} alt="Icon" className="hero-icon2" /> 
+        <img src={ahmad_pic} alt="Ahmad Bahr" className="hero-icon2" />
         <div className="hero-text">
           <h1 className="hero-title">
             <span className="highlight-text-blink">Ahmad Bahr</span>
