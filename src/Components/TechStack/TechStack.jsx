@@ -6,7 +6,6 @@ import {
   faJs,
   faReact,
   faNodeJs,
-  faPython,
   faJava,
   faGit,
   faDocker,
@@ -52,7 +51,6 @@ const TechStack = () => {
           <FontAwesomeIcon icon={faJs} title="JavaScript" className="icon" />
           <FontAwesomeIcon icon={faReact} title="React" className="icon" />
           <FontAwesomeIcon icon={faNodeJs} title="Node.js" className="icon" />
-          <FontAwesomeIcon icon={faPython} title="Python" className="icon" />
           <FontAwesomeIcon icon={faJava} title="Java" className="icon" />
           <FontAwesomeIcon icon={faGit} title="Git" className="icon" />
           <FontAwesomeIcon icon={faLinux} title="Linux" className="icon" />
