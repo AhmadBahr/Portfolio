@@ -26,31 +26,30 @@ export const About = () => {
         </p>
       </div>
       <div className="about-details" data-aos="fade-up">
-        <div className="about-deatils-cont">
-          <div className="column">
-          <div className="email-container">
-            <p>
-              <strong>Email:</strong> ahmadbah.r@outlook.com{" "}
-            </p>
-          </div>
-          </div>
-          <div className="column" style={{ marginLeft: "1rem" }}>
-            <p>
-              <strong>Education:</strong> Computer & Applied Sciences
-            </p>
-            <p>
-              <strong>Degree:</strong> BSc. Level 6 Extended Diploma
-            </p>
-          </div>
-        </div>
+  <div className="about-deatils-cont">
+    <div className="column">
+      <div className="email-container">
+        <p>
+          <strong>Email:</strong> ahmadbah.r@outlook.com{" "}
+        </p>
       </div>
+      <p>
+        <strong>Education:</strong> Computer & Applied Sciences
+      </p>
+      <p>
+        <strong>Degree:</strong> BSc. Level 6 Extended Diploma
+      </p>
+    </div>
+  </div>
+</div>
+
 
       <div className="additional-info" data-aos="fade-up">
         <hr className="horizontal-line" />
         <div className="info-box">
           <div className="info-item">
-            <p>4</p>
-            <div className="info-item-text">1 Year(s) of Experience</div>
+            <p>1</p>
+            <div className="info-item-text">Year of Experience</div>
           </div>
           <div className="info-item">
             <p>10</p>

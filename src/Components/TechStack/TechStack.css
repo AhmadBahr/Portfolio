@@ -62,7 +62,7 @@
 
 @media screen and (max-width: 769px) {
   .icon-column {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
