@@ -2,6 +2,8 @@
   margin: 20px auto;
   text-align: center;
   background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .tech-stack-header {
@@ -20,7 +22,8 @@
   background-color: #e65f78;
   position: absolute;
   bottom: -8px;
-  left: 46rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .tech-stack-subtitle {
@@ -35,6 +38,7 @@
   gap: 10px;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .icon-row {
@@ -42,11 +46,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: moveIcons 20s linear infinite;
 }
 
 .icon {
-  font-size: 30px; 
+  font-size: 50px;
 }
 
 .icon-item {
@@ -60,9 +63,17 @@
   margin-top: 5px;
 }
 
+.jQueryIcon, .chakraIcon, .reduxIcon, .tailwindIcon, .materialUiIcon {
+    width: 80px; 
+}
+.Jesticon,
+.postmanicon{
+    width: 40px; 
+} 
+
 @media screen and (max-width: 769px) {
   .icon-column {
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
   }
 
@@ -79,6 +90,11 @@
     background-color: #e65f78;
     position: absolute;
     bottom: -8px;
-    left: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .jQueryIcon, .chakraIcon, .reduxIcon, .tailwindIcon, .materialUiIcon {
+    width: 30%;
   }
 }

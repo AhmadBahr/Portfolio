@@ -8,7 +8,6 @@ import {
   faNodeJs,
   faJava,
   faGit,
-  faDocker,
   faLinux,
   faMicrosoft,
   faBootstrap,
@@ -57,9 +56,9 @@ const TechStack = () => {
           <FontAwesomeIcon icon={faMicrosoft} title="Microsoft" className="icon" />
           <img src={slack} alt="Slack" title="Slack" className="icon" />         
           <img src={jira} alt="Jira" title="Jira" className="icon" />
-          <img src={jqueryIcon} alt="jQuery" title="jQuery" className="icon" style={{ width: '4%' }} />
-          <img src={chakraIcon} alt="Chakra UI" title="Chakra UI" className="icon"  style={{ width: '4%' }} />
-          <img src={reduxIcon} alt="Redux" title="Redux" className="icon"  style={{ width: '4%' }} />
+          <img src={jqueryIcon} alt="jQuery" title="jQuery" className="icon jQueryIcon" />
+          <img src={chakraIcon} alt="Chakra UI" title="Chakra UI" className="icon chakraIcon" />
+          <img src={reduxIcon} alt="Redux" title="Redux" className="icon reduxIcon" />
         </div>
         <div className="icon-column fade-left" data-aos="fade-left">
           <FontAwesomeIcon icon={faBootstrap} title="Bootstrap" className="icon" />
@@ -67,8 +66,8 @@ const TechStack = () => {
           <img src={photoshop} alt="Photoshop" title="Photoshop" className="icon" />          
           <FontAwesomeIcon icon={faFigma} title="Figma" className="icon" />
           <FontAwesomeIcon icon={faGithub} title="GitHub" className="icon" />
-          <img src={jest} alt="Jest" title="Jest" className="icon" />
-          <img src={postman} alt="Postman" title="Postman" className="icon" />
+          <img src={jest} alt="Jest" title="Jest" className="Jesticon" />
+          <img src={postman} alt="Postman" title="Postman" className="postmanicon" />
           <img src={sql} alt="SQL" title="SQL" className="icon" />
           <img src={mongo} alt="MongoDB" title="MongoDB" className="icon" />
           <img src={illustrator} alt="Adobe Illustrator" title="Adobe Illustrator" className="icon" />
@@ -76,7 +75,7 @@ const TechStack = () => {
           <img src={expressjs} alt="Express.js" title="Express.js" className="icon" />
           <img src={git} alt="Git" title="Git" className="icon" />
           <img src={babel} alt="Babel" title="Babel" className="icon" />
-          <img src={tailwindIcon} alt="Tailwind CSS" title="Tailwind CSS" className="icon"  style={{ width: '4%' }} />
+          <img src={tailwindIcon} alt="Tailwind CSS" title="Tailwind CSS" className="icon tailwindIcon" />
         </div>
       </div>
     </div>
