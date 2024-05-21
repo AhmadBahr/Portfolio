@@ -8,7 +8,7 @@ import TechStack from './Components/TechStack/TechStack';
 import Contact from './Components/Contact/Contact';
 import Experience from '././Components/Experience/Experience';
 import Copyright from './Components/Copyrights/Copyright';
-import './App.css'
+import './global.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
 function App() {
