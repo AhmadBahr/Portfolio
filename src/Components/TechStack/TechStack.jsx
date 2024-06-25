@@ -6,14 +6,14 @@ import {
   faJs,
   faReact,
   faNodeJs,
-  faJava,
   faGit,
-  faLinux,
   faMicrosoft,
   faBootstrap,
   faSass,
   faFigma,
   faGithub,
+  faMongoDB,
+  faMySql
 } from "@fortawesome/free-brands-svg-icons";
 import "./TechStack.css";
 import photoshop from "../../assets/icons8-photoshop.svg";
@@ -50,9 +50,7 @@ const TechStack = () => {
           <FontAwesomeIcon icon={faJs} title="JavaScript" className="icon" />
           <FontAwesomeIcon icon={faReact} title="React" className="icon" />
           <FontAwesomeIcon icon={faNodeJs} title="Node.js" className="icon" />
-          <FontAwesomeIcon icon={faJava} title="Java" className="icon" />
           <FontAwesomeIcon icon={faGit} title="Git" className="icon" />
-          <FontAwesomeIcon icon={faLinux} title="Linux" className="icon" />
           <FontAwesomeIcon icon={faMicrosoft} title="Microsoft" className="icon" />
           <img src={slack} alt="Slack" title="Slack" className="icon" />         
           <img src={jira} alt="Jira" title="Jira" className="icon" />

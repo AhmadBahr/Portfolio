@@ -6,7 +6,7 @@ const Experience = () => {
     {
       title: "IT Maintenance",
       company: "Ayoub Computers",
-      duration: "2022-2023",
+      duration: "2022 - 2023",
       responsibilities: [
         "Ensured functionality and security of digital systems and hardware.",
         "Performed continuous maintenance to uphold system reliability.",
@@ -16,7 +16,7 @@ const Experience = () => {
     {
       title: "Junior FrontEnd Web Developer",
       company: "Quantum FinTech Leap ",
-      duration: "  2023-Present",
+      duration: "  2023 - Present",
       responsibilities: [
         "Created responsive web interfaces using HTML, CSS, and JavaScript.",
         "Integrated frontend with backend APIs for seamless data flow.",
@@ -26,7 +26,7 @@ const Experience = () => {
     {
       title: "Volunteer",
       company: "MUBS",
-      duration:  " 2021-2022",
+      duration:  " 2021 - 2022",
       responsibilities: [
         "Regularly volunteer for event planning and coordination.",
         "Contribute to various initiatives, demonstrating dedication to community engagement.",

@@ -98,8 +98,7 @@
   .Project-description,
   .Technologies-title,
   .Technology-item {
-    margin-left: auto; 
-    margin-right: auto;
+    margin-left: 0rem; 
   }
 
   .Project-image {
