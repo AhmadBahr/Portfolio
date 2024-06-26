@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import './Navbar.css'; 
-import Ahmad_CV from '../../assets/Ahmad Bahr.pdf'; 
+import Ahmad_CV from '../../assets/Ahmad Bahr_ Résumé.pdf'; 
 
 const Navbar = () => {
   const handleOpenResume = () => {
