@@ -20,7 +20,7 @@ const Projects = () => {
       image: icon_6,
       title: "E-commerce Website",
       description: "An intuitive e-commerce website with seamless navigation and secure payment processing",
-      technologies: ["HTML", "CSS", "JS","React"]
+      technologies: ["HTML", "CSS", "JS", "React"]
     },
     {
       image: icon_7,
@@ -38,8 +38,77 @@ const Projects = () => {
       image: icon_9,
       title: "Super Ticktactoe Game",
       description: "A captivating UI for a Super Tic-Tac-Toe game, incorporating strategic game play elements and interactive features to engage players.",
-      technologies: ["C#", "CSS", "HTML","JS","JQuery"]
+      technologies: ["C#", "CSS", "HTML", "JS", "JQuery"]
     },
+    {
+      image: "https://via.placeholder.com/150?text=Self-Driving+Car",
+      title: "Self-Driving Car",
+      description: "A self-driving car simulation showcasing advanced problem-solving skills and application of AI concepts.",
+      technologies: ["JavaScript", "Neural Networks", "Machine Learning"]
+    },
+    {
+      image: "https://via.placeholder.com/150?text=Chat+Application",
+      title: "Chat Application",
+      description: "A real-time chat application demonstrating real-time communication and web socket implementation.",
+      technologies: [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Mongoose",
+        "Socket.IO",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Redux Toolkit",
+        "Socket.IO Client",
+        "Chakra UI"
+      ]
+    },
+    {
+      image: "https://via.placeholder.com/150?text=Social+Media+Application",
+      title: "Social Media Application",
+      description: "A social media application with features such as user authentication, posting, and liking, showcasing full-stack development skills.",
+      technologies: [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Mongoose",
+        "JsonWebToken",
+        "Multer",
+        "GridFS-Storage",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Redux Toolkit",
+        "React Router",
+        "Redux Persist",
+        "React Dropzone",
+        "Formik",
+        "Yup"
+      ]
+    },
+    {
+      image: "https://via.placeholder.com/150?text=Restaurant+Finder",
+      title: "Restaurant Finder",
+      description: "A restaurant finder application showcasing API integration and data visualization.",
+      technologies: [
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "HTML",
+        "JavaScript",
+        "React",
+        "React Router"
+      ]
+    },
+    {
+      image: "https://via.placeholder.com/150?text=TicTacToe+Human+vs+AI",
+      title: "TicTacToe Human vs AI",
+      description: "A Tic-Tac-Toe game with AI opponent, demonstrating knowledge in game development and artificial intelligence.",
+      technologies: ["C#", "CSS", "HTML", "JS", "JQuery"]
+    }
   ];
 
   return (
