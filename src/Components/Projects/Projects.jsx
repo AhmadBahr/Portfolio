@@ -21,35 +21,35 @@ const Projects = () => {
       title: "E-commerce Website",
       description: "An intuitive e-commerce website with seamless navigation and secure payment processing",
       technologies: ["HTML", "CSS", "JS", "React"],
-      githubLink: "https://github.com/your-username/e-commerce-repo"
+      githubLink: "https://github.com/AhmadBahr/Ecommerce-Website"
     },
     {
       image: icon_7,
       title: "Shopping Cart",
       description: "Crafted an intuitive and visually appealing shopping cart UI with static props.",
       technologies: ["HTML", "CSS"],
-      githubLink: "https://github.com/your-username/shopping-cart-repo"
+      githubLink: "https://github.com/AhmadBahr/ShoppingCartUI"
     },
     {
       image: icon_8,
       title: "Rock Papers Scissors",
       description: "Developed an engaging Rock-Paper-Scissors game with sleek UI design, smooth animations, and responsive controls, offering players a fun and immersive gaming experience.",
       technologies: ["HTML", "CSS", "JS"],
-      githubLink: "https://github.com/your-username/rock-paper-scissors-repo"
+      githubLink: "https://github.com/AhmadBahr/Rock-Papers-Scissors"
     },
     {
       image: icon_9,
       title: "Super Tic Tac Toe Game",
       description: "A captivating UI for a Super Tic-Tac-Toe game, incorporating strategic gameplay elements and interactive features to engage players.",
       technologies: ["C#", "CSS", "HTML", "JS", "JQuery"],
-      githubLink: "https://github.com/your-username/super-tic-tac-toe-repo"
+      githubLink: "https://github.com/AhmadBahr/LoginForm-SUPER-TicTacToeGame"
     },
     {
       image: "https://via.placeholder.com/150?text=Self-Driving+Car",
       title: "Self-Driving Car",
       description: "A self-driving car simulation showcasing advanced problem-solving skills and application of AI concepts.",
       technologies: ["JavaScript", "Neural Networks", "Machine Learning"],
-      githubLink: "https://github.com/your-username/self-driving-car-repo"
+      githubLink: "https://github.com/AhmadBahr/Self-Driving-Car"
     },
     {
       image: "https://via.placeholder.com/150?text=Chat+Application",
@@ -69,7 +69,7 @@ const Projects = () => {
         "Socket.IO Client",
         "Chakra UI"
       ],
-      githubLink: "https://github.com/your-username/chat-application-repo"
+      githubLink: "https://github.com/AhmadBahr/Chat-Application"
     },
     {
       image: "https://via.placeholder.com/150?text=Social+Media+Application",
@@ -94,7 +94,7 @@ const Projects = () => {
         "Formik",
         "Yup"
       ],
-      githubLink: "https://github.com/your-username/social-media-repo"
+      githubLink: "https://github.com/AhmadBahr/Social-Media-Application"
     },
     {
       image: "https://via.placeholder.com/150?text=Restaurant+Finder",
@@ -109,14 +109,14 @@ const Projects = () => {
         "React",
         "React Router"
       ],
-      githubLink: "https://github.com/your-username/restaurant-finder-repo"
+      githubLink: "https://github.com/AhmadBahr/Restaurant-Finder"
     },
     {
       image: "https://via.placeholder.com/150?text=TicTacToe+Human+vs+AI",
       title: "TicTacToe Human vs AI",
       description: "A Tic-Tac-Toe game with AI opponent, demonstrating knowledge in game development and artificial intelligence.",
       technologies: ["C#", "CSS", "HTML", "JS", "JQuery"],
-      githubLink: "https://github.com/your-username/tic-tac-toe-ai-repo"
+      githubLink: "https://github.com/AhmadBahr/TicTacToegame-Human-V.S-AI-"
     }
   ];
 
