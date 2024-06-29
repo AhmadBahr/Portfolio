@@ -21,13 +21,14 @@
 .Project-item {
   background-color: #1F1F1F !important;
   border-radius: 10px;
-  padding: 0.5rem; 
+  padding: 0.5rem;
   margin-bottom: 20px;
-  flex-basis: calc(33% - 20px); 
-  width: calc(50% - 20px); 
-  margin: 10px; 
+  flex-basis: calc(33% - 20px);
+  width: calc(50% - 20px);
+  margin: 10px;
+  position: relative;
+  overflow: hidden; /* Ensure overflow is hidden for the swipe-up animation */
 }
-
 
 .Project-title {
   font-size: 24px;
@@ -39,8 +40,8 @@
 }
 
 .Projects-container {
-  width:100%;
-  display:flex;
+  width: 100%;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 1rem;
@@ -53,7 +54,7 @@
 }
 
 .Project-image {
- width: 90%;
+  width: 90%;
 }
 
 .Technologies-title {
@@ -80,33 +81,60 @@
   display: inline-block;
   margin-left: 1rem;
 }
-@media screen and (max-width: 769px) {
-  .Project-item {
-    flex-basis: calc(100% - 20px); 
-    width: calc(100% - 20px); 
-    margin: 10px; 
-    max-width: calc(100% - 20px);
-    box-sizing: border-box; 
-    text-align: center;
-  }
 
-  .Projects-container {
-    margin-top: 1rem; 
-  }
+.Swipe-up {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
 
-  .Project-title,
-  .Project-description,
-  .Technologies-title,
-  .Technology-item {
-    margin-left: 0rem; 
-  }
+.Project-item:hover .Swipe-up {
+  transform: translateY(0%);
+}
 
-  .Project-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15rem;    
+.Swipe-arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+  margin: auto;
+  animation: arrowUpDown 1s infinite alternate; /* Animation for the arrow */
+}
+
+@keyframes arrowUpDown {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
   }
 }
 
+.Arrow-text {
+  color: white;
+  margin-top: 5px;
+  text-decoration: none;
+}
 
+
+.Swipe-up {
+  opacity: 0;
+}
+
+.Project-item:hover .Swipe-up {
+  opacity: 1;
+
+}
+.Github-link {
+  text-decoration: none; 
+  color: inherit;
+}

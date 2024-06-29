@@ -20,31 +20,36 @@ const Projects = () => {
       image: icon_6,
       title: "E-commerce Website",
       description: "An intuitive e-commerce website with seamless navigation and secure payment processing",
-      technologies: ["HTML", "CSS", "JS", "React"]
+      technologies: ["HTML", "CSS", "JS", "React"],
+      githubLink: "https://github.com/your-username/e-commerce-repo"
     },
     {
       image: icon_7,
       title: "Shopping Cart",
       description: "Crafted an intuitive and visually appealing shopping cart UI with static props.",
-      technologies: ["HTML", "CSS"]
+      technologies: ["HTML", "CSS"],
+      githubLink: "https://github.com/your-username/shopping-cart-repo"
     },
     {
       image: icon_8,
       title: "Rock Papers Scissors",
       description: "Developed an engaging Rock-Paper-Scissors game with sleek UI design, smooth animations, and responsive controls, offering players a fun and immersive gaming experience.",
-      technologies: ["HTML", "CSS", "JS"]
+      technologies: ["HTML", "CSS", "JS"],
+      githubLink: "https://github.com/your-username/rock-paper-scissors-repo"
     },
     {
       image: icon_9,
-      title: "Super Ticktactoe Game",
-      description: "A captivating UI for a Super Tic-Tac-Toe game, incorporating strategic game play elements and interactive features to engage players.",
-      technologies: ["C#", "CSS", "HTML", "JS", "JQuery"]
+      title: "Super Tic Tac Toe Game",
+      description: "A captivating UI for a Super Tic-Tac-Toe game, incorporating strategic gameplay elements and interactive features to engage players.",
+      technologies: ["C#", "CSS", "HTML", "JS", "JQuery"],
+      githubLink: "https://github.com/your-username/super-tic-tac-toe-repo"
     },
     {
       image: "https://via.placeholder.com/150?text=Self-Driving+Car",
       title: "Self-Driving Car",
       description: "A self-driving car simulation showcasing advanced problem-solving skills and application of AI concepts.",
-      technologies: ["JavaScript", "Neural Networks", "Machine Learning"]
+      technologies: ["JavaScript", "Neural Networks", "Machine Learning"],
+      githubLink: "https://github.com/your-username/self-driving-car-repo"
     },
     {
       image: "https://via.placeholder.com/150?text=Chat+Application",
@@ -63,7 +68,8 @@ const Projects = () => {
         "Redux Toolkit",
         "Socket.IO Client",
         "Chakra UI"
-      ]
+      ],
+      githubLink: "https://github.com/your-username/chat-application-repo"
     },
     {
       image: "https://via.placeholder.com/150?text=Social+Media+Application",
@@ -87,7 +93,8 @@ const Projects = () => {
         "React Dropzone",
         "Formik",
         "Yup"
-      ]
+      ],
+      githubLink: "https://github.com/your-username/social-media-repo"
     },
     {
       image: "https://via.placeholder.com/150?text=Restaurant+Finder",
@@ -101,13 +108,15 @@ const Projects = () => {
         "JavaScript",
         "React",
         "React Router"
-      ]
+      ],
+      githubLink: "https://github.com/your-username/restaurant-finder-repo"
     },
     {
       image: "https://via.placeholder.com/150?text=TicTacToe+Human+vs+AI",
       title: "TicTacToe Human vs AI",
       description: "A Tic-Tac-Toe game with AI opponent, demonstrating knowledge in game development and artificial intelligence.",
-      technologies: ["C#", "CSS", "HTML", "JS", "JQuery"]
+      technologies: ["C#", "CSS", "HTML", "JS", "JQuery"],
+      githubLink: "https://github.com/your-username/tic-tac-toe-ai-repo"
     }
   ];
 
@@ -116,17 +125,21 @@ const Projects = () => {
       <div className="Projects-title">Projects</div>
       <div className="Projects-list">
         {projectsData.map((project, index) => (
-          <div className="Project-item" key={index}>
+          <div className="Project-item" key={index} data-aos="fade-up">
             <img src={project.image} alt={project.title} className="Project-image" />
             <div className="Project-details">
               <div className="Project-title">{project.title}</div>
-              <div className="Project-subtitle">{project.subtitle}</div>
               <div className="Project-description">{project.description}</div>
               <div className="Project-technologies">
                 <div className="Technologies-title">Technologies Used:</div>
                 {project.technologies.map((technology, index) => (
                   <div className="Technology-item" key={index}>{technology}</div>
                 ))}
+              </div>
+              <div className="Swipe-up">
+                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="Github-link">
+                  <div className="Swipe-arrow"></div>
+                  <div className="Arrow-text">Swipe up to view project</div>                </a>
               </div>
             </div>
           </div>
