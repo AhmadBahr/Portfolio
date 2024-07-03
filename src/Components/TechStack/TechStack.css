@@ -15,6 +15,10 @@
   position: relative;
 }
 
+.csharp-icon {
+  width: 6%;
+}
+
 .tech-stack-header:after {
   content: '';
   display: block;
@@ -64,13 +68,18 @@
   margin-top: 5px;
 }
 
-.jQueryIcon, .chakraIcon, .reduxIcon, .tailwindIcon, .materialUiIcon {
-    width: 80px; 
+.jQueryIcon,
+.chakraIcon,
+.reduxIcon,
+.tailwindIcon,
+.materialUiIcon {
+  width: 80px;
 }
+
 .Jesticon,
-.postmanicon{
-    width: 40px; 
-} 
+.postmanicon {
+  width: 40px;
+}
 
 @media screen and (max-width: 769px) {
   .icon-column {
@@ -95,7 +104,11 @@
     transform: translateX(-50%);
   }
 
-  .jQueryIcon, .chakraIcon, .reduxIcon, .tailwindIcon, .materialUiIcon {
+  .jQueryIcon,
+  .chakraIcon,
+  .reduxIcon,
+  .tailwindIcon,
+  .materialUiIcon {
     width: 30%;
   }
 }
