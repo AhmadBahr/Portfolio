@@ -27,7 +27,7 @@
   width: calc(50% - 20px);
   margin: 10px;
   position: relative;
-  overflow: hidden; /* Ensure overflow is hidden for the swipe-up animation */
+  overflow: hidden; 
 }
 
 .Project-title {
@@ -55,6 +55,7 @@
 
 .Project-image {
   width: 90%;
+  margin-left: 1rem;
 }
 
 .Technologies-title {
@@ -107,7 +108,7 @@
   border-right: 10px solid transparent;
   border-bottom: 10px solid white;
   margin: auto;
-  animation: arrowUpDown 1s infinite alternate; /* Animation for the arrow */
+  animation: arrowUpDown 1s infinite alternate; 
 }
 
 @keyframes arrowUpDown {

@@ -6,6 +6,11 @@ import icon_6 from '../../assets/2241285 1.svg';
 import icon_7 from '../../assets/depositphotos_574826670-stock-illustration-shopping-cart-simple-design 1.svg';
 import icon_8 from '../../assets/ecommerce-website-icon-vector 1.svg';
 import icon_9 from '../../assets/istockphoto-580129972-612x612.svg';
+import icon_11 from '../../assets/icon_11.png'
+import icon_12 from '../../assets/icon_12.png'
+import icon_13 from '../../assets/icon_13.jpg'
+import icon_14 from '../../assets/icon_14.avif'  
+import icon_15 from '../../assets/icon_15.jpg'
 
 const Projects = () => {
   useEffect(() => {
@@ -45,14 +50,14 @@ const Projects = () => {
       githubLink: "https://github.com/AhmadBahr/LoginForm-SUPER-TicTacToeGame"
     },
     {
-      image: "https://via.placeholder.com/150?text=Self-Driving+Car",
+      image: icon_11,
       title: "Self-Driving Car",
       description: "A self-driving car simulation showcasing advanced problem-solving skills and application of AI concepts.",
       technologies: ["JavaScript", "Neural Networks", "Machine Learning"],
       githubLink: "https://github.com/AhmadBahr/Self-Driving-Car"
     },
     {
-      image: "https://via.placeholder.com/150?text=Chat+Application",
+      image: icon_12,
       title: "Chat Application",
       description: "A real-time chat application demonstrating real-time communication and web socket implementation.",
       technologies: [
@@ -72,7 +77,7 @@ const Projects = () => {
       githubLink: "https://github.com/AhmadBahr/Chat-Application"
     },
     {
-      image: "https://via.placeholder.com/150?text=Social+Media+Application",
+      image: icon_13,
       title: "Social Media Application",
       description: "A social media application with features such as user authentication, posting, and liking, showcasing full-stack development skills.",
       technologies: [
@@ -97,7 +102,7 @@ const Projects = () => {
       githubLink: "https://github.com/AhmadBahr/Social-Media-Application"
     },
     {
-      image: "https://via.placeholder.com/150?text=Restaurant+Finder",
+      image: icon_14,
       title: "Restaurant Finder",
       description: "A restaurant finder application showcasing API integration and data visualization.",
       technologies: [
@@ -112,7 +117,7 @@ const Projects = () => {
       githubLink: "https://github.com/AhmadBahr/Restaurant-Finder"
     },
     {
-      image: "https://via.placeholder.com/150?text=TicTacToe+Human+vs+AI",
+      image: icon_15,
       title: "TicTacToe Human vs AI",
       description: "A Tic-Tac-Toe game with AI opponent, demonstrating knowledge in game development and artificial intelligence.",
       technologies: ["C#", "CSS", "HTML", "JS", "JQuery"],
