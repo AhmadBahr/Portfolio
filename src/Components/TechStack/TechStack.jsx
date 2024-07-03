@@ -46,7 +46,7 @@ const TechStack = () => {
       <p className="tech-stack-subtitle">Technologies I've Been Working With</p>
       <div className="icon-row">
         <div className="icon-column fade-right" data-aos="fade-right">
-        <img className="csharp-icon" src={icon_16} alt="icon" title="icon" />
+        <img className="csharp-icon" src={icon_16} alt="icon" title="Csharp" />
         <FontAwesomeIcon icon={faHtml5} title="HTML" className="icon" />
           <FontAwesomeIcon icon={faCss3Alt} title="CSS" className="icon" />
           <FontAwesomeIcon icon={faJs} title="JavaScript" className="icon" />
