@@ -24,9 +24,7 @@ const Navbar = () => {
         <ScrollLink to="contact" smooth={true} duration={500}>Contact</ScrollLink>
       </div>
 
-      <a href="#" onClick={handleOpenResume}>
-        <button className="resume-button">Resume</button>
-      </a>
+      <button className="resume-button" onClick={handleOpenResume}>Resume</button>
 
       <div className={`hamburger-menu ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
         <div className="bar"></div>
