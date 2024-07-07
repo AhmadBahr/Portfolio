@@ -10,12 +10,19 @@
 .nav-links {
   display: flex;
   gap: 10px;
+  margin: 0 auto;
 }
 
 .nav-links a {
   color: white;
   cursor: pointer;
   text-decoration: none;
+}
+
+.hamburger-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 .resume-button {
@@ -25,7 +32,7 @@
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  display: none; /* Hide the button initially */
+  display: none; 
 }
 
 .hamburger-menu {
@@ -65,13 +72,16 @@
 
   .hamburger-menu {
     display: flex;
+    position: relative;
+    left: 42rem;
   }
 
   .hamburger-menu.open + .dropdown-menu {
     display: flex;
+    color: white;
   }
 
   .dropdown-menu .resume-button {
-    display: block; /* Show the button in the dropdown menu */
+    display: block; 
   }
 }

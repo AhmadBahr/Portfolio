@@ -149,7 +149,12 @@ const Projects = () => {
               <p>
                 <strong>Technologies Used:</strong> {project.technologies.join(', ')}
               </p>
-              <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+              <a
+                href={project.githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
                 View Project
               </a>
             </Carousel.Caption>

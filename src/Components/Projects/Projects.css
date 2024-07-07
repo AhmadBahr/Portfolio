@@ -1,13 +1,14 @@
+
 .Projects-container {
   padding: 2rem;
-  background-color: #f7f7f7;
+  background-color: #333;
 }
 
 .Projects-title {
-  font-size: 30px;
+  font-size: 36px;
   font-weight: bold;
-  color: #fff;
-  margin-bottom: 20px;
+  color: white;
+  margin-bottom: 30px;
   text-align: center;
   position: relative;
 }
@@ -15,32 +16,41 @@
 .Projects-title:after {
   content: '';
   display: block;
-  width: 60%;
-  height: 2px;
+  width: 80px;
+  height: 3px;
   background-color: #E65F78;
   position: absolute;
-  bottom: -8px;
-  left: 19%;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .carousel-item img {
   height: 500px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .Project-item {
-  background-color: #1F1F1F !important;
+  background-color: #fff;
   border-radius: 10px;
-  padding: 0.5rem;
+  padding: 1rem;
   margin-bottom: 20px;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Project-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .Project-title {
   font-size: 24px;
   font-weight: bold;
-  color: #E65F78;
+  color: #333;
   margin-bottom: 10px;
 }
 
@@ -53,22 +63,24 @@
   margin-top: 10px;
   font-size: 18px;
   margin-bottom: 10px;
+  color: #666;
 }
 
 .Project-description {
   margin-top: 10px;
   font-size: 14px;
-  color: white;
+  color: #666;
 }
 
 .Technology-item {
-  color: #fff;
+  color: #666;
   padding: 5px 10px;
-  border: 1px solid #fff;
+  border: 1px solid #ddd;
   border-radius: 5px;
   margin-right: 5px;
   margin-bottom: 5px;
   display: inline-block;
+  font-size: 12px;
 }
 
 .Swipe-up {
@@ -127,37 +139,16 @@
   color: inherit;
 }
 
-@media (max-width: 769px) {
-  .Project-item {
-    width: 100% !important;
-    padding: 1rem;
-  }
+/* Styling for Carousel */
+.carousel-caption {
+  color: #333;
+}
 
-  .Project-image {
-    width: 100%;
-  }
+.carousel-caption h3 {
+  color: #333;
+  font-size: 24px;
+}
 
-  .Projects-container {
-    padding: 1rem;
-  }
-
-  .Projects-title {
-    font-size: 24px;
-  }
-
-  .carousel-item img {
-    height: auto;
-  }
-
-  .Project-title {
-    font-size: 20px;
-  }
-
-  .Technologies-title {
-    font-size: 16px;
-  }
-
-  .Project-description {
-    font-size: 12px;
-  }
+.carousel-caption p {
+  color: #333;
 }
