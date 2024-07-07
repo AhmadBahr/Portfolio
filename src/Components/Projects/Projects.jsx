@@ -27,12 +27,40 @@ const Projects = () => {
     setIndex(selectedIndex);
   };
 
+  const technologyColors = {
+    HTML: "#F16529",
+    CSS: "#1572B6",
+    JavaScript: "#F0DB4F",
+    React: "#61DAFB",
+    'Node.js': "#68A063",
+    'Express.js': "#000000",
+    MongoDB: "#4DB33D",
+    Mongoose: "#592B13",
+    'Socket.IO': "#010101",
+    'JsonWebToken': "#205C3B",
+    Multer: "#FFB64D",
+    'GridFS-Storage': "#00AEEF",
+    'React Router': "#CA4245",
+    'Redux Toolkit': "#764ABC",
+    WebSocket: "#2176FF",
+    'Chakra UI': "#319795",
+    Formik: "#F49D37",
+    Yup: "#0056B3",
+    PostgreSQL: "#336791",
+    jQuery: "#0868AC",
+    'C#': "#239120",
+    'Neural Networks': "#FF6F61",
+    'Machine Learning': "#FFA500",
+    'Redux Persist': "#764ABC",
+    'React Dropzone': "#0088CC" 
+  };
+
   const projectsData = [
     {
       image: icon_6,
       title: "E-commerce Website",
       description: "An intuitive e-commerce website with seamless navigation and secure payment processing",
-      technologies: ["HTML", "CSS", "JS", "React"],
+      technologies: ["HTML", "CSS", "JavaScript", "React"],
       githubLink: "https://github.com/AhmadBahr/Ecommerce-Website"
     },
     {
@@ -46,14 +74,14 @@ const Projects = () => {
       image: icon_8,
       title: "Rock Papers Scissors",
       description: "Developed an engaging Rock-Paper-Scissors game with sleek UI design, smooth animations, and responsive controls, offering players a fun and immersive gaming experience.",
-      technologies: ["HTML", "CSS", "JS"],
+      technologies: ["HTML", "CSS", "JavaScript"],
       githubLink: "https://github.com/AhmadBahr/Rock-Papers-Scissors"
     },
     {
       image: icon_9,
       title: "Super Tic Tac Toe Game",
       description: "A captivating UI for a Super Tic-Tac-Toe game, incorporating strategic gameplay elements and interactive features to engage players.",
-      technologies: ["C#", "CSS", "HTML", "JS", "JQuery"],
+      technologies: ["C#", "CSS", "HTML", "JavaScript", "jQuery"],
       githubLink: "https://github.com/AhmadBahr/LoginForm-SUPER-TicTacToeGame"
     },
     {
@@ -78,7 +106,7 @@ const Projects = () => {
         "JavaScript",
         "React",
         "Redux Toolkit",
-        "Socket.IO Client",
+        "WebSocket",
         "Chakra UI"
       ],
       githubLink: "https://github.com/AhmadBahr/Chat-Application"
@@ -125,9 +153,9 @@ const Projects = () => {
     },
     {
       image: icon_15,
-      title: "TicTacToe Human vs AI",
+      title: "Tic-Tac-Toe Human vs AI",
       description: "A Tic-Tac-Toe game with AI opponent, demonstrating knowledge in game development and artificial intelligence.",
-      technologies: ["C#", "CSS", "HTML", "JS", "JQuery"],
+      technologies: ["C#", "CSS", "HTML", "JavaScript", "jQuery"],
       githubLink: "https://github.com/AhmadBahr/TicTacToegame-Human-V.S-AI-"
     }
   ];
@@ -146,14 +174,25 @@ const Projects = () => {
             <Carousel.Caption>
               <h3>{project.title}</h3>
               <p>{project.description}</p>
-              <p>
-                <strong>Technologies Used:</strong> {project.technologies.join(', ')}
-              </p>
+              <div className="Technologies-container">
+                <strong>Technologies Used:</strong>
+                <div className="Technologies-list">
+                  {project.technologies.map((tech, index) => (
+                    <span
+                      key={index}
+                      className="Technology-item"
+                      style={{ backgroundColor: technologyColors[tech], color: 'white' }}
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
               <a
                 href={project.githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-primary"
+                className="view-project-btn"
               >
                 View Project
               </a>
