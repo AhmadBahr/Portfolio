@@ -25,8 +25,8 @@
 }
 
 .carousel-item img {
-  height: 500px;
-  object-fit: cover;
+  width: 100%;
+  height: auto;
   border-radius: 10px;
 }
 
@@ -91,55 +91,55 @@
 }
 
 .Technology-item.html {
-  background-color: #F16529; 
+  background-color: #F16529;
 }
 
 .Technology-item.css {
-  background-color: #1572B6; 
+  background-color: #1572B6;
 }
 
 .Technology-item.javascript {
-  background-color: #F0DB4F; 
+  background-color: #F0DB4F;
 }
 
 .Technology-item.react {
-  background-color: #61DAFB; 
+  background-color: #61DAFB;
 }
 
 .Technology-item.nodejs {
-  background-color: #68A063; 
+  background-color: #68A063;
 }
 
 .Technology-item.expressjs {
-  background-color: #000000; 
+  background-color: #000000;
 }
 
 .Technology-item.mongodb {
-  background-color: #4DB33D; 
+  background-color: #4DB33D;
 }
 
 .Technology-item.mongoose {
-  background-color: #592B13; 
+  background-color: #592B13;
 }
 
 .Technology-item.socketio {
-  background-color: #010101; 
+  background-color: #010101;
 }
 
 .Technology-item.jwt {
-  background-color: #205C3B; 
+  background-color: #205C3B;
 }
 
 .Technology-item.multer {
-  background-color: #FFB64D; 
+  background-color: #FFB64D;
 }
 
 .Technology-item.gridfs-storage {
-  background-color: #00AEEF; 
+  background-color: #00AEEF;
 }
 
 .Technology-item.react-router {
-  background-color: #CA4245; 
+  background-color: #CA4245;
 }
 
 .Technology-item.redux-toolkit {
@@ -151,15 +151,15 @@
 }
 
 .Technology-item.chakra-ui {
-  background-color: #319795; 
+  background-color: #319795;
 }
 
 .Technology-item.formik {
-  background-color: #F49D37; 
+  background-color: #F49D37;
 }
 
 .Technology-item.yup {
-  background-color: #0056B3; 
+  background-color: #0056B3;
 }
 
 .Technology-item.postgresql {
@@ -175,19 +175,19 @@
 }
 
 .Technology-item.csharp {
-  background-color: #239120; 
+  background-color: #239120;
 }
 
 .Technology-item.neural-network {
-  background-color: #FF6F61; 
+  background-color: #FF6F61;
 }
 
 .Technology-item.machine-learning {
-  background-color: #FFA500; 
+  background-color: #FFA500;
 }
 
 .Technology-item.redux-persist {
-  background-color: #764ABC; 
+  background-color: #764ABC;
 }
 
 .Swipe-arrow {
@@ -224,13 +224,94 @@
 
 .carousel-caption {
   color: #333;
+  text-align: center;
 }
 
 .carousel-caption h3 {
   color: black;
   font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .carousel-caption p {
   color: black;
 }
+
+@media (max-width: 992px) {
+  .Projects-title {
+    font-size: 28px;
+  }
+  
+  .Project-item {
+    padding: 0.8rem;
+  }
+  
+  .Project-title {
+    font-size: 20px;
+  }
+  
+  .Technologies-title {
+    font-size: 16px;
+  }
+  
+  .Project-description {
+    font-size: 12px;
+  }
+  
+  .view-project-btn {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Projects-title {
+    font-size: 24px;
+  }
+  
+  .Project-item {
+    padding: 0.6rem;
+  }
+  
+  .Project-title {
+    font-size: 18px;
+  }
+  
+  .Technologies-title {
+    font-size: 14px;
+  }
+  
+  .Project-description {
+    font-size: 10px;
+  }
+  
+  .view-project-btn {
+    padding: 6px 12px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .Projects-title {
+    font-size: 28px;
+  }
+  
+  .Project-item {
+    padding: 0.8rem;
+  }
+  
+  .Project-title {
+    font-size: 20px;
+  }
+  
+  .Technologies-title {
+    font-size: 16px;
+  }
+  
+  .Project-description {
+    font-size: 12px;
+  }
+  
+  .view-project-btn {
+    padding: 8px 16px;
+  }
+}
+
