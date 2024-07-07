@@ -1,24 +1,31 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Carousel from 'react-bootstrap/Carousel';
 import './Projects.css';
 import icon_6 from '../../assets/2241285 1.svg';
 import icon_7 from '../../assets/depositphotos_574826670-stock-illustration-shopping-cart-simple-design 1.svg';
 import icon_8 from '../../assets/ecommerce-website-icon-vector 1.svg';
 import icon_9 from '../../assets/istockphoto-580129972-612x612.svg';
-import icon_11 from '../../assets/icon_11.png'
-import icon_12 from '../../assets/icon_12.png'
-import icon_13 from '../../assets/icon_13.jpg'
-import icon_14 from '../../assets/icon_14.avif'  
-import icon_15 from '../../assets/icon_15.jpg'
+import icon_11 from '../../assets/icon_11.png';
+import icon_12 from '../../assets/icon_12.png';
+import icon_13 from '../../assets/icon_13.jpg';
+import icon_14 from '../../assets/icon_14.avif';
+import icon_15 from '../../assets/icon_15.jpg';
 
 const Projects = () => {
+  const [index, setIndex] = useState(0);
+
   useEffect(() => {
     AOS.init({
       duration: 1000,
       once: true
     });
   }, []);
+
+  const handleSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+  };
 
   const projectsData = [
     {
@@ -128,28 +135,27 @@ const Projects = () => {
   return (
     <div id="projects" className="Projects-container" data-aos="fade-up">
       <div className="Projects-title">Projects</div>
-      <div className="Projects-list">
-        {projectsData.map((project, index) => (
-          <div className="Project-item" key={index} data-aos="fade-up">
-            <img src={project.image} alt={project.title} className="Project-image" />
-            <div className="Project-details">
-              <div className="Project-title">{project.title}</div>
-              <div className="Project-description">{project.description}</div>
-              <div className="Project-technologies">
-                <div className="Technologies-title">Technologies Used:</div>
-                {project.technologies.map((technology, index) => (
-                  <div className="Technology-item" key={index}>{technology}</div>
-                ))}
-              </div>
-              <div className="Swipe-up">
-                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="Github-link">
-                  <div className="Swipe-arrow"></div>
-                  <div className="Arrow-text">Swipe up to view project</div>                </a>
-              </div>
-            </div>
-          </div>
+      <Carousel activeIndex={index} onSelect={handleSelect}>
+        {projectsData.map((project, idx) => (
+          <Carousel.Item key={idx}>
+            <img
+              className="d-block w-100"
+              src={project.image}
+              alt={project.title}
+            />
+            <Carousel.Caption>
+              <h3>{project.title}</h3>
+              <p>{project.description}</p>
+              <p>
+                <strong>Technologies Used:</strong> {project.technologies.join(', ')}
+              </p>
+              <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                View Project
+              </a>
+            </Carousel.Caption>
+          </Carousel.Item>
         ))}
-      </div>
+      </Carousel>
     </div>
   );
 }

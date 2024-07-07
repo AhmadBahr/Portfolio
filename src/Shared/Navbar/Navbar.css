@@ -5,19 +5,18 @@
   padding: 10px 20px;
   background-color: #333;
   color: white;
-  gap: 10px;
 }
 
 .nav-links {
-  margin-left: 36rem;
+  display: flex;
+  gap: 10px;
+  margin: 0 auto;
 }
 
 .nav-links a {
-  margin-right: 10px; 
   color: white;
   cursor: pointer;
   text-decoration: none;
-  gap: 10px;
 }
 
 .resume-button {
@@ -29,21 +28,46 @@
   cursor: pointer;
 }
 
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger-menu .bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+}
+
+.dropdown-menu {
+  display: none;
+  flex-direction: column;
+  background-color: #333;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.dropdown-menu a,
+.dropdown-menu .resume-button {
+  margin: 5px 0;
+}
+
 @media screen and (max-width: 769px) {
-  .navbar {
-    display: flex;
-    flex-direction: column;
-  }
-
   .nav-links {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-left: 1rem;
+    display: none;
   }
 
-  .resume-button {
-    margin-top: 20px;
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .hamburger-menu.open + .dropdown-menu {
+    display: flex;
   }
 }
