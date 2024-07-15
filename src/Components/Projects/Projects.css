@@ -53,6 +53,11 @@
   margin-bottom: 10px;
 }
 
+.carousel-inner {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .Technologies-title {
   margin-top: 10px;
   font-size: 18px;
@@ -90,54 +95,74 @@
   font-size: 12px;
 }
 
-@media screen and  (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .Projects-title {
     font-size: 28px;
   }
-  
+  .carousel-inner {
+    width: 80%;
+  }
   .Project-item {
     padding: 0.8rem;
   }
-  
   .Project-title {
     font-size: 20px;
   }
-  
   .Technologies-title {
     font-size: 16px;
   }
-  
   .Project-description {
     font-size: 12px;
   }
-  
   .view-project-btn {
     padding: 8px 16px;
   }
 }
 
-@media screen and  (max-width: 769px) {
+@media screen and (max-width: 769px) {
   .Projects-title {
     font-size: 24px;
   }
-  
+  .carousel-inner {
+    width: 90%;
+  }
   .Project-item {
     padding: 0.6rem;
   }
-  
   .Project-title {
     font-size: 18px;
   }
-  
   .Technologies-title {
     font-size: 14px;
   }
-  
   .Project-description {
     font-size: 10px;
   }
-  
   .view-project-btn {
     padding: 6px 12px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .Projects-title {
+    font-size: 20px;
+  }
+  .carousel-inner {
+    width: 100%;
+  }
+  .Project-item {
+    padding: 0.4rem;
+  }
+  .Project-title {
+    font-size: 16px;
+  }
+  .Technologies-title {
+    font-size: 12px;
+  }
+  .Project-description {
+    font-size: 9px;
+  }
+  .view-project-btn {
+    padding: 5px 10px;
   }
 }
