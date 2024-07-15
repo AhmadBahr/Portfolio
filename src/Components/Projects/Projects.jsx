@@ -12,6 +12,7 @@ import icon_12 from '../../assets/icon_12.png';
 import icon_13 from '../../assets/icon_13.jpg';
 import icon_14 from '../../assets/icon_14.avif';
 import icon_15 from '../../assets/icon_15.jpg';
+import icon_16 from '../../assets/icon_16.jpg';
 
 const Projects = () => {
   const [index, setIndex] = useState(0);
@@ -37,7 +38,7 @@ const Projects = () => {
     MongoDB: "#4DB33D",
     Mongoose: "#592B13",
     'Socket.IO': "#010101",
-    'JsonWebToken': "#205C3B",
+    JsonWebToken: "#205C3B",
     Multer: "#FFB64D",
     'GridFS-Storage': "#00AEEF",
     'React Router': "#CA4245",
@@ -52,8 +53,19 @@ const Projects = () => {
     'Neural Networks': "#FF6F61",
     'Machine Learning': "#FFA500",
     'Redux Persist': "#764ABC",
-    'React Dropzone': "#0088CC" 
-  };
+    'React Dropzone': "#0088CC",
+    MySQL: "#00758F",
+    Axios: "#5A29E4",
+    Bcryptjs: "#3A3A3A",
+    Cookieparser: "#FF9800",
+    CORS: "#00BFFF",
+    Nodemon: "#76D04B",
+    'React-quill': "#CA3F7E",
+    'React-Router-Dom': "#CA4245",
+    SASS: "#CC6699"
+};
+
+  
 
   const projectsData = [
     {
@@ -157,6 +169,31 @@ const Projects = () => {
       description: "A Tic-Tac-Toe game with AI opponent, demonstrating knowledge in game development and artificial intelligence.",
       technologies: ["C#", "CSS", "HTML", "JavaScript", "jQuery"],
       githubLink: "https://github.com/AhmadBahr/TicTacToegame-Human-V.S-AI-"
+    },
+    {
+      image: icon_16,
+      title: "Blogspace",
+      description: "Blogspace is a blogging platform. Offering a dynamic and interactive experience for both writers and readers. It provides a platform for users to create, share, and engage with blog posts on various topics.",
+      technologies: [
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "Axios",
+        "Bcryptjs",
+        "Cookieparser",
+        "Cors",
+        "JsonWebToken",
+        "Multer",
+        "Nodemon",
+        "HTML",
+        "JavaScript",
+        "React",
+        "React Router",
+        "React-quill",
+        "React-Router-Dom",
+        "SASS"
+      ],
+      githubLink: "https://github.com/AhmadBahr/Blogspace"
     }
   ];
 
