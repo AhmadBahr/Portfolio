@@ -19,12 +19,6 @@
   text-decoration: none;
 }
 
-.hamburger-container {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-}
-
 .resume-button {
   background-color: #E65F78;
   color: white;
@@ -32,7 +26,7 @@
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  display: none; 
+  display: none;
 }
 
 .hamburger-menu {
@@ -58,6 +52,7 @@
   padding: 10px;
   border-radius: 5px;
   z-index: 1000;
+  color: white;
 }
 
 .dropdown-menu a,
@@ -65,7 +60,7 @@
   margin: 5px 0;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .nav-links {
     display: none;
   }
@@ -73,15 +68,15 @@
   .hamburger-menu {
     display: flex;
     position: relative;
-    left: 42rem;
+    right: 0;
+    margin-left: 16rem;
   }
 
   .hamburger-menu.open + .dropdown-menu {
     display: flex;
-    color: white;
   }
 
   .dropdown-menu .resume-button {
-    display: block; 
+    display: block;
   }
 }

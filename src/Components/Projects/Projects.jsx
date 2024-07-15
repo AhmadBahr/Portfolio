@@ -181,7 +181,7 @@ const Projects = () => {
                     <span
                       key={index}
                       className="Technology-item"
-                      style={{ backgroundColor: technologyColors[tech], color: 'white' }}
+                      style={{ backgroundColor: technologyColors[tech] }}
                     >
                       {tech}
                     </span>

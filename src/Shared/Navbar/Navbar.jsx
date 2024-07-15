@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="nav-links">
         <ScrollLink to="about" smooth={true} duration={500}>About</ScrollLink>
         <ScrollLink to="experience" smooth={true} duration={500}>Experience</ScrollLink>
-        <ScrollLink to="Hobbies" smooth={true} duration={500}>Hobbies</ScrollLink>
+        <ScrollLink to="hobbies" smooth={true} duration={500}>Hobbies</ScrollLink>
         <ScrollLink to="projects" smooth={true} duration={500}>Projects</ScrollLink>
         <ScrollLink to="contact" smooth={true} duration={500}>Contact</ScrollLink>
       </div>
@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className="dropdown-menu">
           <ScrollLink to="about" smooth={true} duration={500} onClick={toggleMenu}>About</ScrollLink>
           <ScrollLink to="experience" smooth={true} duration={500} onClick={toggleMenu}>Experience</ScrollLink>
-          <ScrollLink to="Hobbies" smooth={true} duration={500} onClick={toggleMenu}>Hobbies</ScrollLink>
+          <ScrollLink to="hobbies" smooth={true} duration={500} onClick={toggleMenu}>Hobbies</ScrollLink>
           <ScrollLink to="projects" smooth={true} duration={500} onClick={toggleMenu}>Projects</ScrollLink>
           <ScrollLink to="contact" smooth={true} duration={500} onClick={toggleMenu}>Contact</ScrollLink>
           <button className="resume-button" onClick={() => { handleOpenResume(); toggleMenu(); }}>Resume</button>
