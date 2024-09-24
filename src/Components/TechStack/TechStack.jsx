@@ -34,6 +34,9 @@ import neuralNetworksIcon from '../../assets/Untitled3.jpg';
 import machineLearningIcon from '../../assets/Untitled4.jpg';
 import figmaIcon from '../../assets/download (2).png';
 import jiraIcon from '../../assets/download3.jpg';
+import jqueryIcon from '../../assets/download (3).png'; 
+import kaboomIcon from '../../assets/626a4d26872df226062635.jpg';
+import expoIcon from '../../assets/expo.jpg';
 
 const techStack = [
   { name: 'C#', icon: csharpIcon },
@@ -69,6 +72,9 @@ const techStack = [
   { name: 'Machine Learning', icon: machineLearningIcon },
   { name: 'Figma', icon: figmaIcon },
   { name: 'Jira', icon: jiraIcon },
+  { name: 'jQuery', icon: jqueryIcon }, 
+  { name: 'Kaboom.js', icon: kaboomIcon }, 
+  { name: 'Expo', icon: expoIcon },
 ];
 
 const TechStack = () => {
