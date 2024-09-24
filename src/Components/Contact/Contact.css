@@ -14,11 +14,11 @@
 .contact-title:after {
   content: '';
   display: block;
-  width: 11%;
+  width: 4%;
   height: 2px;
   background-color: #E65F78;
   position: absolute;
-  left: 45%;
+  left: 48%;
 }
 
 .underline {
