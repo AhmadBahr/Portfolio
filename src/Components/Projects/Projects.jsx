@@ -20,7 +20,7 @@ const Projects = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      once: true
+      once: true,
     });
   }, []);
 
@@ -62,10 +62,8 @@ const Projects = () => {
     Nodemon: "#76D04B",
     'React-quill': "#CA3F7E",
     'React-Router-Dom': "#CA4245",
-    SASS: "#CC6699"
-};
-
-  
+    SASS: "#CC6699",
+  };
 
   const projectsData = [
     {
@@ -73,35 +71,35 @@ const Projects = () => {
       title: "E-commerce Website",
       description: "An intuitive e-commerce website with seamless navigation and secure payment processing",
       technologies: ["HTML", "CSS", "JavaScript", "React"],
-      githubLink: "https://github.com/AhmadBahr/Ecommerce-Website"
+      githubLink: "https://github.com/AhmadBahr/Ecommerce-Website",
     },
     {
       image: icon_7,
       title: "Shopping Cart",
       description: "Crafted an intuitive and visually appealing shopping cart UI with static props.",
       technologies: ["HTML", "CSS"],
-      githubLink: "https://github.com/AhmadBahr/ShoppingCartUI"
+      githubLink: "https://github.com/AhmadBahr/ShoppingCartUI",
     },
     {
       image: icon_8,
       title: "Rock Papers Scissors",
       description: "Developed an engaging Rock-Paper-Scissors game with sleek UI design, smooth animations, and responsive controls, offering players a fun and immersive gaming experience.",
       technologies: ["HTML", "CSS", "JavaScript"],
-      githubLink: "https://github.com/AhmadBahr/Rock-Papers-Scissors"
+      githubLink: "https://github.com/AhmadBahr/Rock-Papers-Scissors",
     },
     {
       image: icon_9,
       title: "Super Tic Tac Toe Game",
       description: "A captivating UI for a Super Tic-Tac-Toe game, incorporating strategic gameplay elements and interactive features to engage players.",
       technologies: ["C#", "CSS", "HTML", "JavaScript", "jQuery"],
-      githubLink: "https://github.com/AhmadBahr/LoginForm-SUPER-TicTacToeGame"
+      githubLink: "https://github.com/AhmadBahr/LoginForm-SUPER-TicTacToeGame",
     },
     {
       image: icon_11,
       title: "Self-Driving Car",
       description: "A self-driving car simulation showcasing advanced problem-solving skills and application of AI concepts.",
       technologies: ["JavaScript", "Neural Networks", "Machine Learning"],
-      githubLink: "https://github.com/AhmadBahr/Self-Driving-Car"
+      githubLink: "https://github.com/AhmadBahr/Self-Driving-Car",
     },
     {
       image: icon_12,
@@ -119,9 +117,9 @@ const Projects = () => {
         "React",
         "Redux Toolkit",
         "WebSocket",
-        "Chakra UI"
+        "Chakra UI",
       ],
-      githubLink: "https://github.com/AhmadBahr/Chat-Application"
+      githubLink: "https://github.com/AhmadBahr/Chat-Application",
     },
     {
       image: icon_13,
@@ -144,9 +142,9 @@ const Projects = () => {
         "Redux Persist",
         "React Dropzone",
         "Formik",
-        "Yup"
+        "Yup",
       ],
-      githubLink: "https://github.com/AhmadBahr/Social-Media-Application"
+      githubLink: "https://github.com/AhmadBahr/Social-Media-Application",
     },
     {
       image: icon_14,
@@ -159,21 +157,21 @@ const Projects = () => {
         "HTML",
         "JavaScript",
         "React",
-        "React Router"
+        "React Router",
       ],
-      githubLink: "https://github.com/AhmadBahr/Restaurant-Finder"
+      githubLink: "https://github.com/AhmadBahr/Restaurant-Finder",
     },
     {
       image: icon_15,
       title: "Tic-Tac-Toe Human vs AI",
       description: "A Tic-Tac-Toe game with AI opponent, demonstrating knowledge in game development and artificial intelligence.",
       technologies: ["C#", "CSS", "HTML", "JavaScript", "jQuery"],
-      githubLink: "https://github.com/AhmadBahr/TicTacToegame-Human-V.S-AI-"
+      githubLink: "https://github.com/AhmadBahr/TicTacToegame-Human-V.S-AI-",
     },
     {
       image: icon_16,
       title: "Blogspace",
-      description: "Blogspace is a blogging platform. Offering a dynamic and interactive experience for both writers and readers. It provides a platform for users to create, share, and engage with blog posts on various topics.",
+      description: "Blogspace is a blogging platform offering a dynamic and interactive experience for both writers and readers. It provides a platform for users to create, share, and engage with blog posts on various topics.",
       technologies: [
         "Node.js",
         "Express.js",
@@ -181,7 +179,7 @@ const Projects = () => {
         "Axios",
         "Bcryptjs",
         "Cookieparser",
-        "Cors",
+        "CORS",
         "JsonWebToken",
         "Multer",
         "Nodemon",
@@ -191,10 +189,10 @@ const Projects = () => {
         "React Router",
         "React-quill",
         "React-Router-Dom",
-        "SASS"
+        "SASS",
       ],
-      githubLink: "https://github.com/AhmadBahr/Blogspace"
-    }
+      githubLink: "https://github.com/AhmadBahr/Blogspace",
+    },
   ];
 
   return (

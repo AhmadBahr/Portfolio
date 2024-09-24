@@ -1,114 +1,92 @@
 .tech-stack-container {
   margin: 20px auto;
   text-align: center;
-  background-color: #333;
+  background-color: #1a1a1a;
   padding: 20px;
   border-radius: 10px;
   margin-top: 1rem;
 }
 
-.tech-stack-header {
+.tech-stack-title:after {
+  content: '';
+  display: block;
+  width: 11%;
+  height: 2px;
+  background-color: #E65F78;
+  position: absolute;
+  left: 45%;
+}
+
+.tech-stack-title {
   font-size: 30px;
   font-weight: bold;
   color: #ffffff;
   margin-bottom: 20px;
-  position: relative;
-}
-
-.csharp-icon {
-  width: 6%;
-}
-
-.tech-stack-header:after {
-  content: '';
-  display: block;
-  width: 4%;
-  height: 2px;
-  background-color: #e65f78;
-  position: absolute;
-  bottom: -8px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .tech-stack-subtitle {
   font-size: 25px;
-  color: white;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
-.icon-column {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 20px;
+  justify-items: center;
 }
 
-.icon-row {
+.grid-item {
+  background-color: #2e2e2e;
+  border-radius: 50%;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 80px; 
+  height: 80px; 
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.grid-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .icon {
-  font-size: 50px;
+  border-radius: 50%;
+  width: 50px;  
+  height: 50px; 
+  object-fit: cover; 
+  transition: transform 0.3s; 
 }
 
-.icon-item {
-  margin: 20px 10px;
-  text-align: center;
+.icon:hover {
+  transform: scale(1.1); 
 }
+
 
 .icon-title {
-  font-size: 18px;
-  color: #555;
+  font-size: 14px;
+  color: #ffffff;
   margin-top: 5px;
 }
 
-.jQueryIcon,
-.chakraIcon,
-.reduxIcon,
-.tailwindIcon,
-.materialUiIcon {
-  width: 80px;
-}
-
-.Jesticon,
-.postmanicon {
-  width: 40px;
-}
-
 @media screen and (max-width: 769px) {
-  .icon-column {
-    flex-direction: column;
-    align-items: center;
+  .grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
   }
 
-  .icon-item {
-    margin: 20px 0;
-    width: 100%;
+  .grid-item {
+    width: 60px; 
+    height: 60px; 
   }
 
-  .tech-stack-header:after {
-    content: '';
-    display: block;
-    width: 20%;
-    height: 2px;
-    background-color: #e65f78;
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .jQueryIcon,
-  .chakraIcon,
-  .reduxIcon,
-  .tailwindIcon,
-  .materialUiIcon {
-    width: 30%;
+  .icon {
+    width: 30px; 
+    height: 30px;
   }
 }

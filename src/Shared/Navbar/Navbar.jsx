@@ -24,9 +24,13 @@ const Navbar = () => {
         <ScrollLink to="contact" smooth={true} duration={500}>Contact</ScrollLink>
       </div>
 
-      <button className="resume-button" onClick={handleOpenResume}>Resume</button>
+      <button className="resume-button desktop" onClick={handleOpenResume}>Resume</button>
 
-      <div className={`hamburger-menu ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
+      <div 
+        className={`hamburger-menu ${isOpen ? 'open' : ''}`} 
+        onClick={toggleMenu} 
+        aria-expanded={isOpen}
+      >
         <div className="bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>
@@ -39,7 +43,7 @@ const Navbar = () => {
           <ScrollLink to="hobbies" smooth={true} duration={500} onClick={toggleMenu}>Hobbies</ScrollLink>
           <ScrollLink to="projects" smooth={true} duration={500} onClick={toggleMenu}>Projects</ScrollLink>
           <ScrollLink to="contact" smooth={true} duration={500} onClick={toggleMenu}>Contact</ScrollLink>
-          <button className="resume-button" onClick={() => { handleOpenResume(); toggleMenu(); }}>Resume</button>
+          <button className="resume-button mobile" onClick={() => { handleOpenResume(); toggleMenu(); }}>Resume</button>
         </div>
       )}
     </div>

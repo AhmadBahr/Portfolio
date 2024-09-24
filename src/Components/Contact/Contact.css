@@ -11,6 +11,16 @@
   margin-top: 10px;
 }
 
+.contact-title:after {
+  content: '';
+  display: block;
+  width: 11%;
+  height: 2px;
+  background-color: #E65F78;
+  position: absolute;
+  left: 45%;
+}
+
 .underline {
   border: 1.5px solid #E65F78;
   width: 40px;
@@ -20,6 +30,7 @@
 
 .contact-text {
   color: white;
+  margin-top: 1rem;
 }
 
 .message-button {
