@@ -34,9 +34,20 @@ import neuralNetworksIcon from '../../assets/Untitled3.jpg';
 import machineLearningIcon from '../../assets/Untitled4.jpg';
 import figmaIcon from '../../assets/download (2).png';
 import jiraIcon from '../../assets/download3.jpg';
-import jqueryIcon from '../../assets/download (3).png'; 
+import jqueryIcon from '../../assets/download (3).png';
 import kaboomIcon from '../../assets/626a4d26872df226062635.jpg';
 import expoIcon from '../../assets/expo.jpg';
+import electronIcon from '../../assets/images4.png';
+import framerIcon from '../../assets/free-framer-logo-icon-download-i.jpg'
+import aosIcon from '../../assets/images (3).png'
+import gsapIcon from '../../assets/cropped_image.png'
+import cypressIcon from '../../assets/images10.jpeg'
+import vitestIcon from '../../assets/images(10).png'
+import playwriteIcon from '../../assets/1632954819046.jpeg'
+import viteIcon from '../../assets/vite.svg'
+import vercelIcon from '../../assets/images (16).png'
+import npmIcon from '../../assets/images (17).png'
+import chromeIcon from '../../assets/Untitled-12-removebg-preview.png'
 
 const techStack = [
   { name: 'C#', icon: csharpIcon },
@@ -72,9 +83,21 @@ const techStack = [
   { name: 'Machine Learning', icon: machineLearningIcon },
   { name: 'Figma', icon: figmaIcon },
   { name: 'Jira', icon: jiraIcon },
-  { name: 'jQuery', icon: jqueryIcon }, 
-  { name: 'Kaboom.js', icon: kaboomIcon }, 
+  { name: 'jQuery', icon: jqueryIcon },
+  { name: 'Kaboom.js', icon: kaboomIcon },
   { name: 'Expo', icon: expoIcon },
+  { name: 'Electron.js', icon: electronIcon },
+  { name: 'Framer Motion', icon: framerIcon },
+  { name: 'AOS (Animate On Scroll)', icon: aosIcon },
+  { name: 'GSAP', icon: gsapIcon },
+  { name: 'Cypress', icon: cypressIcon },
+  { name: 'Playwright', icon: playwriteIcon },
+  { name: 'Vitest', icon: vitestIcon },
+  { name: 'Vite', icon: viteIcon },
+  { name: 'Vercel', icon: vercelIcon },
+  { name: 'npm', icon: npmIcon },
+  { name: 'Chrome Extension Developer', icon: chromeIcon },
+
 ];
 
 const TechStack = () => {
@@ -85,11 +108,11 @@ const TechStack = () => {
       <div className="grid-container">
         {techStack.map((tech) => (
           <div className="grid-item" key={tech.name}>
-            <img 
-              src={tech.icon} 
-              alt={tech.name} 
-              title={tech.name} 
-              className="icon" 
+            <img
+              src={tech.icon}
+              alt={tech.name}
+              title={tech.name}
+              className="icon"
             />
           </div>
         ))}

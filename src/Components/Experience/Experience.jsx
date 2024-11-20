@@ -14,9 +14,9 @@ const Experience = () => {
       ]
     },
     {
-      title: "Junior FrontEnd Web Developer",
+      title: "FrontEnd Web Developer",
       company: "Quantum FinTech Leap ",
-      duration: "  2023 - Present",
+      duration: "  2023 - 2024",
       responsibilities: [
         "Created responsive web interfaces using HTML, CSS, and JavaScript.",
         "Integrated frontend with backend APIs for seamless data flow.",
