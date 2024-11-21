@@ -38,7 +38,7 @@ import jqueryIcon from '../../assets/download (3).png';
 import kaboomIcon from '../../assets/626a4d26872df226062635.jpg';
 import expoIcon from '../../assets/expo.jpg';
 import electronIcon from '../../assets/images4.png';
-import framerIcon from '../../assets/free-framer-logo-icon-download-i.jpg'
+import framerIcon from '../../assets/imageeee.jpg'
 import aosIcon from '../../assets/images (3).png'
 import gsapIcon from '../../assets/cropped_image.png'
 import cypressIcon from '../../assets/images10.jpeg'
