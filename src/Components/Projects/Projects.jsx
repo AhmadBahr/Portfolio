@@ -4,15 +4,13 @@ import "aos/dist/aos.css";
 import Carousel from "react-bootstrap/Carousel";
 import "./Projects.css";
 import icon_6 from "../../assets/2241285 1.svg";
-import icon_7 from "../../assets/depositphotos_574826670-stock-illustration-shopping-cart-simple-design 1.svg";
-import icon_8 from "../../assets/ecommerce-website-icon-vector 1.svg";
-import icon_9 from "../../assets/istockphoto-580129972-612x612.svg";
+import icon_7 from "../../assets/video-game-background-deisgn_23.jpg";
+import icon_26ff from "../../assets/266f.jpg";
+import icon_9 from "../../assets/images.jpeg";
 import icon_11 from "../../assets/icon_11.png";
-import icon_12 from "../../assets/icon_12.png";
-import icon_13 from "../../assets/icon_13.jpg";
-import icon_14 from "../../assets/icon_14.avif";
-import icon_15 from "../../assets/icon_15.jpg";
-import icon_16 from "../../assets/icon_16.jpg";
+import icon_12 from "../../assets/bmy3m8bhdcx91.png";
+import icon_13 from "../../assets/BCC-text-message-how-to-featured.jpg";
+import icon_14 from "../../assets/1595924249289.jpeg";
 
 const Projects = () => {
   const [index, setIndex] = useState(0);
@@ -51,7 +49,7 @@ const Projects = () => {
     React: "#61DAFB",
     ReactNative: "#61DA",
     TailWindCSS: "#06B6D4",
-    FramerMotion: "#FF008C", 
+    FramerMotion: "#FF008C",
     Csharp: "#68217A",
     SSMS: "#CC2927",
     "ASP.NET Core": "#512BD4",
@@ -78,7 +76,7 @@ const Projects = () => {
     ViteTest: "#FFD700",
     Expo: "#000020",
   };
-  
+
 
 
   const projectsData = [
@@ -92,7 +90,7 @@ const Projects = () => {
       demoVideo: "https://www.example.com/demo1.mp4",
     },
     {
-      image: icon_7,
+      image: icon_11,
       title: "Tesla Car",
       description:
         "Simulated Tesla car automation using predictive algorithms powered by machine learning models and neural networks.",
@@ -110,7 +108,7 @@ const Projects = () => {
       demoVideo: "https://www.example.com/demo2.mp4",
     },
     {
-      image: icon_7,
+      image: icon_26ff,
       title: "FinShark",
       description:
         "A financial document search engine that leverages APIs and advanced filtering for a seamless user experience.",
@@ -119,7 +117,7 @@ const Projects = () => {
       demoVideo: "https://www.example.com/demo2.mp4",
     },
     {
-      image: icon_7,
+      image: icon_12,
       title: "Resource Manager",
       description:
         "An all-in-one desktop application for managing development resources, complete with testing tools like Cypress and Playwright.",
@@ -128,7 +126,7 @@ const Projects = () => {
       demoVideo: "https://www.example.com/demo2.mp4",
     },
     {
-      image: icon_7,
+      image: icon_9,
       title: "Ryde",
       description:
         "A ride-sharing platform with real-time tracking, payment integration via Stripe, and user authentication powered by Clerk.",
@@ -150,7 +148,7 @@ const Projects = () => {
       demoVideo: "https://www.example.com/demo2.mp4",
     },
     {
-      image: icon_7,
+      image: icon_13,
       title: "Chatter-Box",
       description:
         "A real-time chat application with WebSocket integration for instant messaging and a responsive UI built with Chakra UI.",
@@ -169,7 +167,7 @@ const Projects = () => {
       demoVideo: "https://www.example.com/demo2.mp4",
     },
     {
-      image: icon_7,
+      image: icon_14,
       title: "Sociopedia",
       description:
         "A social networking platform where users can post, like, and comment. Implements JWT authentication and file uploads using Multer and GridFS.",
@@ -191,7 +189,7 @@ const Projects = () => {
       demoVideo: "https://www.example.com/demo2.mp4",
     },
   ];
-  
+
 
   return (
     <div id="projects" className="Projects-container" data-aos="fade-up">
@@ -205,8 +203,8 @@ const Projects = () => {
               alt={project.title}
             />
             <Carousel.Caption>
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
+              <h3 className="project-title">{project.title}</h3>
+              <p className="project-descript">{project.description}</p>
               <div className="Technologies-container">
                 <strong>Technologies Used:</strong>
                 <div className="Technologies-list">
