@@ -51,16 +51,23 @@
 }
 
 .experience-responsibilities {
-  margin-top: 10px;
-  padding-left:0px
+  list-style-type: disc;
+  list-style-position: inside;
+  margin: 10px 0;
+  padding-left: 20px;
+  color: white;
 }
 
 .experience-responsibilities li {
   font-size: 16px;
   color: #ccc; 
   margin-bottom: 5px;
-  list-style:none;
 }
+
+.experience-responsibilities li::marker {
+  color: white;
+}
+
 
 .exp-container-wrap{
   width:100%;
