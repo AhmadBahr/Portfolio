@@ -96,7 +96,7 @@ const Projects = () => {
       description:
         "A multiplayer TicTacToe game with a dynamic grid system that scales with player input, offering a modern twist to the classic game.",
       technologies: ["HTML", "CSS", "JavaScript", "jQuery"],
-      githubLink: "",
+      githubLink: "https://github.com/AhmadBahr/LoginForm-SUPER-TicTacToeGame",
       demoVideo: video_1,
     },
     {
