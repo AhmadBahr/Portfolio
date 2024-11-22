@@ -12,6 +12,15 @@ import icon_12 from "../../assets/bmy3m8bhdcx91.png";
 import icon_13 from "../../assets/BCC-text-message-how-to-featured.jpg";
 import icon_14 from "../../assets/1595924249289.jpeg";
 
+import video_1 from "../../assets/video_1.mp4";
+import video_2 from "../../assets/video_2.mp4";
+import video_3 from "../../assets/video_3.mp4";
+import video_4 from "../../assets/video_4.mp4";
+import video_5 from "../../assets/video_5.mp4";
+import video_6 from "../../assets/video_6.mp4";
+import video_7 from "../../assets/video_7.mp4";
+import video_8 from "../../assets/video_8.mp4";
+
 const Projects = () => {
   const [index, setIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -87,7 +96,7 @@ const Projects = () => {
         "A multiplayer TicTacToe game with a dynamic grid system that scales with player input, offering a modern twist to the classic game.",
       technologies: ["HTML", "CSS", "JavaScript", "jQuery"],
       githubLink: "",
-      demoVideo: "https://www.example.com/demo1.mp4",
+      demoVideo: video_1,
     },
     {
       image: icon_11,
@@ -96,7 +105,7 @@ const Projects = () => {
         "Simulated Tesla car automation using predictive algorithms powered by machine learning models and neural networks.",
       technologies: ["HTML", "CSS", "JavaScript", "Machine Learning", "Neural Networking"],
       githubLink: "https://github.com/AhmadBahr/Tesla-Car-Simulation",
-      demoVideo: "https://github.com/AhmadBahr/Tesla-Car",
+      demoVideo: video_2,
     },
     {
       image: icon_7,
@@ -105,7 +114,7 @@ const Projects = () => {
         "A retro-styled browser game created using Kaboom.js, featuring smooth animations and a compelling adventure storyline.",
       technologies: ["HTML", "CSS", "TypeScript", "Kaboomjs", "Vite", "React"],
       githubLink: "https://github.com/AhmadBahr/PixelQuest",
-      demoVideo: "https://www.example.com/demo2.mp4",
+      demoVideo: video_3,
     },
     {
       image: icon_26ff,
@@ -114,7 +123,7 @@ const Projects = () => {
         "A financial document search engine that leverages APIs and advanced filtering for a seamless user experience.",
       technologies: ["Csharp", "SSMS", "ASP.NET Core", "TailWindCSS", "FramerMotion"],
       githubLink: "https://github.com/AhmadBahr/FinShark",
-      demoVideo: "https://www.example.com/demo2.mp4",
+      demoVideo: video_4,
     },
     {
       image: icon_12,
@@ -123,7 +132,7 @@ const Projects = () => {
         "An all-in-one desktop application for managing development resources, complete with testing tools like Cypress and Playwright.",
       technologies: ["TypeScript", "React", "Vite", "ViteTest", "Cypress", "Electron", "Playwright"],
       githubLink: "https://github.com/AhmadBahr/Resource-Manager",
-      demoVideo: "https://www.example.com/demo2.mp4",
+      demoVideo: video_5,
     },
     {
       image: icon_9,
@@ -145,7 +154,7 @@ const Projects = () => {
         "Express",
       ],
       githubLink: "https://github.com/AhmadBahr/Ryde",
-      demoVideo: "https://www.example.com/demo2.mp4",
+      demoVideo: video_6,
     },
     {
       image: icon_13,
@@ -164,7 +173,7 @@ const Projects = () => {
         "Chakra UI",
       ],
       githubLink: "https://github.com/AhmadBahr/Chatter-Box",
-      demoVideo: "https://www.example.com/demo2.mp4",
+      demoVideo: video_8,
     },
     {
       image: icon_14,
@@ -186,7 +195,7 @@ const Projects = () => {
         "Formik",
       ],
       githubLink: "https://github.com/AhmadBahr/Sociopedia",
-      demoVideo: "https://www.example.com/demo2.mp4",
+      demoVideo: video_7,
     },
   ];
 
@@ -206,7 +215,7 @@ const Projects = () => {
               <h3 className="project-title">{project.title}</h3>
               <p className="project-descript">{project.description}</p>
               <div className="Technologies-container">
-                <strong>Technologies Used:</strong>
+                <strong className="technologies-titlee">Technologies Used:</strong>
                 <div className="Technologies-list">
                   {project.technologies.map((tech, index) => (
                     <span

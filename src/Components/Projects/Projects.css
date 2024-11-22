@@ -30,12 +30,12 @@
   border-radius: 10px;
 }
 
-.project-title{
-  color: #C74F67;
+.project-title {
+  color: black;
 }
 
 .project-descript {
-  color: #C74F67;
+  color: black;
 }
 
 .carousel-inner {
@@ -119,6 +119,10 @@
   margin-bottom: 5px;
   display: inline-block;
   font-size: 12px;
+}
+
+.technologies-titlee {
+  color: black;
 }
 
 .video-modal {
