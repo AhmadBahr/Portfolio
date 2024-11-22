@@ -105,7 +105,7 @@ const Projects = () => {
       description:
         "Simulated Tesla car automation using predictive algorithms powered by machine learning models and neural networks.",
       technologies: ["HTML", "CSS", "JavaScript", "Machine Learning", "Neural Networking"],
-      githubLink: "https://github.com/AhmadBahr/Tesla-Car-Simulation",
+      githubLink: "https://github.com/AhmadBahr/Tesla-Car",
       demoVideo: video_2,
     },
     {
