@@ -41,13 +41,13 @@ const Projects = () => {
   const openModal = (videoSrc) => {
     setCurrentVideo(videoSrc);
     setIsModalOpen(true);
-    setIsCarouselPaused(true); // Pause the carousel
+    setIsCarouselPaused(true);
   };
 
   const closeModal = () => {
     setIsModalOpen(false);
     setCurrentVideo("");
-    setIsCarouselPaused(false); // Resume the carousel
+    setIsCarouselPaused(false);
   };
 
   const technologyColors = {
