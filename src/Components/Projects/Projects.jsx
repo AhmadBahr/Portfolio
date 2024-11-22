@@ -25,6 +25,7 @@ const Projects = () => {
   const [index, setIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentVideo, setCurrentVideo] = useState("");
+  const [isCarouselPaused, setIsCarouselPaused] = useState(false);
 
   useEffect(() => {
     AOS.init({
@@ -40,11 +41,13 @@ const Projects = () => {
   const openModal = (videoSrc) => {
     setCurrentVideo(videoSrc);
     setIsModalOpen(true);
+    setIsCarouselPaused(true); // Pause the carousel
   };
 
   const closeModal = () => {
     setIsModalOpen(false);
     setCurrentVideo("");
+    setIsCarouselPaused(false); // Resume the carousel
   };
 
   const technologyColors = {
@@ -85,8 +88,6 @@ const Projects = () => {
     ViteTest: "#FFD700",
     Expo: "#000020",
   };
-
-
 
   const projectsData = [
     {
@@ -199,11 +200,14 @@ const Projects = () => {
     },
   ];
 
-
   return (
     <div id="projects" className="Projects-container" data-aos="fade-up">
       <div className="Projects-title">Projects</div>
-      <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel
+        activeIndex={index}
+        onSelect={handleSelect}
+        pause={isCarouselPaused ? "hover" : "false"}
+      >
         {projectsData.map((project, idx) => (
           <Carousel.Item key={idx}>
             <img
