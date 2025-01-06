@@ -1,6 +1,8 @@
 import React from 'react';
 import { Spotlight } from './ui/Spotlight';
 import { TextGenerateEffect } from './ui/TextGenerate';
+import MagicButton from './ui/MagicButton';
+import { FaLocationArrow } from 'react-icons/fa';
 
 const Hero = () => {
     return (
@@ -26,6 +28,12 @@ const Hero = () => {
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                     Hi, I'm a web developer and designer with a passion for building beautiful and functional websites. I have experience working with a variety of clients, from small businesses to large corporations. I specialize in front-end development, but I also have experience with back-end development and digital marketing. I'm always looking for new projects to work on, so if you have an idea for a website or app, I'd love to hear from you! Let's work together to bring your vision to life.
                 </p>
+                <a href="#about">
+                    <MagicButton title="Show my work"
+                        icon={<FaLocationArrow />}
+                        position='right'
+                    />
+                </a>
             </div>
         </section>
     );
