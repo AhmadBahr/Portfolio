@@ -22,10 +22,11 @@
 }
 
 .underline {
-  border: 1.5px solid #E65F78;
+  border: 1.5px solid #ffffff;
   width: 40px;
   margin: -20px auto;
   margin-bottom: 0rem;
+  display: none;
 }
 
 .contact-text {
