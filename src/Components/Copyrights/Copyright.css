@@ -1,0 +1,33 @@
+.copyright-container {
+  background-color: #1F1F1F !important;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ahmad, .bahr, .year {
+  margin-right: 5px;
+}
+
+.bahr {
+  color: #E65F78 !important;
+}
+
+.year {
+  color: white;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 769px) {
+  .copyright-container {
+    flex-direction: column;
+  }
+
+  .ahmad, .bahr, .year {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}
