@@ -173,33 +173,58 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
+    title: "IT Maintenance Specialist",
+    company: "Ayoub Computers",
+    duration: "2022 - 2023",
+    desc: "Ensured the functionality and security of 50+ digital systems and hardware.",
     thumbnail: "/exp1.svg",
+    responsibilities: [
+      "Performed regular diagnostics and updates to ensure system stability.",
+      "Reduced system downtime by 20% through proactive maintenance.",
+      "Resolved technical support requests with an average resolution time of under 45 minutes.",
+    ],
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2",
+    title: "Frontend Web Developer",
+    company: "Quantum FinTech Leap",
+    duration: "2023 - 2024",
+    desc: "Developed and maintained 10+ responsive web interfaces using modern technologies.",
     thumbnail: "/exp2.svg",
+    responsibilities: [
+      "Improved user engagement by 15% through responsive design.",
+      "Collaborated with backend developers to integrate APIs.",
+      "Reduced page load times by 25% through optimization.",
+    ],
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2",
+    title: "Volunteer - Event Planner & Coordinator",
+    company: "MUBS",
+    duration: "2021 - 2022",
+    desc: "Organized community events and enhanced outreach efforts.",
     thumbnail: "/exp3.svg",
+    responsibilities: [
+      "Organized 5+ community events with 100+ attendees each.",
+      "Reduced setup times by 10% through efficient logistics planning.",
+      "Increased support for events by securing additional resources and partnerships.",
+    ],
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
+    title: "Frontend Developer",
+    company: "Freelance",
+    duration: "2023 - Present",
+    desc: "Led development of a web-based platform, enhancing user experience.",
     thumbnail: "/exp4.svg",
+    responsibilities: [
+      "Developed and maintained user-facing features using modern frontend technologies.",
+      "Led a team to deliver the project on time and within budget.",
+      "Implemented best practices to improve code quality and maintainability.",
+    ],
   },
 ];
+
 
 export const socialMedia = [
   {
