@@ -1,0 +1,3 @@
+# Ignore specific files or directories
+
+Portfolio\.next\server\app\page.js
