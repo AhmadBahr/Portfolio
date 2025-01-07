@@ -37,10 +37,10 @@ const Hero = () => {
             A Programmer Solves.
           </p>
           <Image
-            src="/images/fotor-2024051512311.png"
+            src="/fotor-2024051512311.png"
             alt="fotor-2024051512311.png"
-            width={800}
-            height={600}
+            width={200}
+            height={200}
             className="rounded-lg shadow-lg mx-auto"
             priority
           />
