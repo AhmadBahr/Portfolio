@@ -48,6 +48,10 @@ import viteIcon from '../../assets/vite.svg'
 import vercelIcon from '../../assets/images (16).png'
 import npmIcon from '../../assets/images (17).png'
 import chromeIcon from '../../assets/Untitled-12-removebg-preview.png'
+import NextIcon from '../../assets/nextjs.png'
+import shadcnIcon from '../../assets/139895814-modified.png'
+import clerkIcon from '../../assets/orig.jpg'
+import svixIcon from '../../assets/images99.png'
 
 const techStack = [
   { name: 'C#', icon: csharpIcon },
@@ -97,6 +101,10 @@ const techStack = [
   { name: 'Vercel', icon: vercelIcon },
   { name: 'npm', icon: npmIcon },
   { name: 'Chrome Extension Developer', icon: chromeIcon },
+  { name: 'Next.js', icon: NextIcon },
+  { name: 'Shadcn', icon: shadcnIcon },
+  { name: 'Clerk', icon: clerkIcon },
+  { name: 'Svix', icon: svixIcon },
 
 ];
 
