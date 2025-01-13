@@ -10,7 +10,6 @@ import chakraIcon from '../../assets/chakra ui logo.png';
 import javascriptIcon from '../../assets/javascript logo.png';
 import reactIcon from '../../assets/react logo.png';
 import reduxIcon from '../../assets/redux.png';
-import sassIcon from '../../assets/png-transparent-sass-npm-cascading-style-sheets-node-js-sass-purple-violet-text-thumbnail.png';
 import tailwindIcon from '../../assets/download.jpg';
 import nodejsIcon from '../../assets/images.png';
 import materialuiIcon from '../../assets/download.png';
@@ -63,7 +62,6 @@ const techStack = [
   { name: 'JavaScript', icon: javascriptIcon },
   { name: 'React', icon: reactIcon },
   { name: 'Redux Toolkit', icon: reduxIcon },
-  { name: 'SASS', icon: sassIcon },
   { name: 'Tailwind', icon: tailwindIcon },
   { name: 'Node.js', icon: nodejsIcon },
   { name: 'Material UI', icon: materialuiIcon },
