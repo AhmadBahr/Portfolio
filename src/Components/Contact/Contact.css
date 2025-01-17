@@ -1,0 +1,86 @@
+.contact-container {
+  text-align: center;
+  background-color: #333333;
+  margin-top: 50px;
+}
+
+.contact-title {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.contact-title:after {
+  content: '';
+  display: block;
+  width: 4%;
+  height: 2px;
+  background-color: #E65F78;
+  position: absolute;
+  left: 48%;
+}
+
+.underline {
+  border: 1.5px solid #ffffff;
+  width: 40px;
+  margin: -20px auto;
+  margin-bottom: 0rem;
+  display: none;
+}
+
+.contact-text {
+  color: white;
+  margin-top: 1rem;
+}
+
+.message-button {
+  background-color: #E65F78;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.social-links {
+  margin-top: 20px;
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+@media screen and (max-width: 769px) {
+  .contact-title {
+    font-size: 32px; 
+  }
+
+  .underline {
+    width: 30px; 
+  }
+
+  .message-button {
+    font-size: 16px; 
+    padding: 8px 16px; 
+  }
+
+  .social-links a {
+    font-size: 20px;
+  }
+}
+
+
