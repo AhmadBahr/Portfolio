@@ -24,9 +24,12 @@ const Hero = () => {
 
                         Developer refracts. Hacker does. Programmer solves.
                     </h2>
-                    <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words=' Ahmad Bahr' />
-                    <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl '>
-                        I&apos;m a Frontend Developer from Lebanon.
+                    <TextGenerateEffect
+                        words="Transforming Concepts into Seamless User Experiences"
+                        className="text-center text-[40px] md:text-5xl lg:text-6xl"
+                    />
+                    <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+                        Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
                     </p>
                 </div>
             </div>
