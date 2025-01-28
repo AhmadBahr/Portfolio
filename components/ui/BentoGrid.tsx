@@ -6,16 +6,13 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
-
-// Dynamically import Lottie to ensure it's only used on the client side
 import dynamic from "next/dynamic";
-let Lottie;
 
-if (process.env.NODE_ENV === "development") {
-  Lottie = require("react-lottie").default;
-} else {
-  Lottie = dynamic(() => import("react-lottie"), { ssr: false });
-}
+const Lottie = dynamic(
+  () => import("react-lottie"),
+  { ssr: false }
+);
+
 export const BentoGrid = ({
   className,
   children,
@@ -56,21 +53,21 @@ export const BentoGridItem = ({
 }) => {
   const leftLists = ["ReactJS", "Express", "Typescript"];
   const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
-
   const [copied, setCopied] = useState(false);
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
     setIsClient(true);
+    return () => {
+      setCopied(false);
+    };
   }, []);
 
   const handleCopy = () => {
-    if (isClient) {
-      const text = "hsu@jsmastery.pro";
-      navigator.clipboard.writeText(text);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 3000); // Reset copied state after 3 seconds
-    }
+    const text = "hsu@jsmastery.pro";
+    navigator.clipboard.writeText(text);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 3000);
   };
 
   return (
@@ -96,9 +93,8 @@ export const BentoGridItem = ({
           )}
         </div>
         <div
-          className={`absolute right-0 -bottom-5 ${
-            id === 5 && "w-full opacity-80"
-          } `}
+          className={`absolute right-0 -bottom-5 ${id === 5 && "w-full opacity-80"
+            } `}
         >
           {spareImg && (
             <img
@@ -157,13 +153,22 @@ export const BentoGridItem = ({
           )}
           {id === 6 && (
             <div className="mt-5 relative">
-              <div
-                className={`absolute -bottom-5 right-0 ${
-                  copied ? "block" : "block"
-                }`}
-              >
-                {isClient && (
-                  <Lottie animationData={animationData} loop={copied} autoplay={copied} style={{ height: 200, width: 400 }} />
+              <div className={`absolute -bottom-5 right-0`}>
+                {isClient && copied && (
+                  <Lottie
+                    options={{
+                      loop: false,
+                      autoplay: true,
+                      animationData: animationData,
+                      rendererSettings: {
+                        preserveAspectRatio: "xMidYMid slice",
+                      },
+                    }}
+                    height={200}
+                    width={400}
+                    isStopped={!copied}
+                    isPaused={!copied}
+                  />
                 )}
               </div>
 
