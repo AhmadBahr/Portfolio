@@ -76,23 +76,43 @@ export const projects = [
     title: "Super Tic-Tac-Toe",
     des: "Tic-tac-toe is a two-player game where players X and O take turns marking a 3x3 grid. This version enhances the traditional game with AI support and improved UI.",
     img: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Ultimate_tic-tac-toe_X_victory.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLinks: [
+      "https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png",
+      "https://p7.hiclipart.com/preview/241/797/259/cascading-style-sheets-css3-javascript-logo-world-wide-web.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/640px-JavaScript-logo.png",
+      "https://static-00.iconduck.com/assets.00/jquery-original-wordmark-icon-485x512-7kn0h2yt.png",
+    ],
     githubLink: "https://github.com/AhmadBahr/LoginForm-SUPER-TicTacToeGame",
   },
   {
-    id: 2,
-    title: "Ryde",
-    des: "Ryde is an Uber clone app, allowing users to book rides, track drivers in real-time, and make secure payments. Built to offer a seamless ride-sharing experience.",
-    img: "https://www.itprobit.com/wp-content/uploads/2021/04/uber-clone.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    githubLink: "https://github.com/AhmadBahr/Ryde",
+    "id": 2,
+    "title": "Ryde",
+    "des": "Ryde is an Uber clone app, allowing users to book rides, track drivers in real-time, and make secure payments. Built to offer a seamless ride-sharing experience.",
+    "img": "https://www.itprobit.com/wp-content/uploads/2021/04/uber-clone.png",
+    "iconLinks": [
+      "https://c4.wallpaperflare.com/wallpaper/294/834/442/reactjs-facebook-javascript-minimalism-wallpaper-preview.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv5QItWE-mqhM2g0FY8Kr131kYfpfcLd7GGw&s",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Stripe_Logo%2C_revised_2016.svg/2560px-Stripe_Logo%2C_revised_2016.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/2275px-Google_Maps_Logo_2020.svg.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi-6r8k08sb8BMnjgCY9Di2LqUef71p8VEwA&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpHj4UwTW4ANSlNjzQOiiOqfDa6kal9RpF0A&s",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png"
+    ],
+    "githubLink": "https://github.com/AhmadBahr/Ryde"
   },
   {
     id: 3,
     title: "Tesla Car",
     des: "A 3D interactive model of a Tesla car, showcasing its design and features. This project demonstrates the application of Three.js to create an immersive experience.",
     img: "https://i.pinimg.com/736x/f2/eb/b2/f2ebb20e28509ea8605d580e1a4af8f0.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLinks: [
+      "https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png",
+      "https://p7.hiclipart.com/preview/241/797/259/cascading-style-sheets-css3-javascript-logo-world-wide-web.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/640px-JavaScript-logo.png",
+      "https://cdn-icons-png.flaticon.com/512/6461/6461928.png",
+      "https://cdn-icons-png.flaticon.com/512/8345/8345929.png"
+    ],
     githubLink: "https://github.com/AhmadBahr/Tesla-Car",
   },
   {
@@ -100,7 +120,13 @@ export const projects = [
     title: "Sociopedia",
     des: "Sociopedia is a social media platform built with the MERN stack. It allows users to create profiles, connect with friends, and engage with posts through likes, comments, and shares.",
     img: "https://mike-palliparambil.vercel.app/portfolio/images/sociopedia-1.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLinks: [
+      "https://example.com/next-link",
+      "https://example.com/tail-link",
+      "https://example.com/ts-link",
+      "https://example.com/three-link",
+      "https://example.com/gsap-link"
+    ],
     githubLink: "https://github.com/AhmadBahr/Sociopedia",
   },
   {
@@ -108,7 +134,12 @@ export const projects = [
     title: "Pixel Quest",
     des: "PixelQuest is a 2D platformer game created using TypeScript and Kaboom.js. Featuring pixel art, players navigate through obstacles, collect items, and defeat enemies.",
     img: "https://raw.githubusercontent.com/AhmadBahr/PixelQuest/main/preview.png",
-    iconLists: ["/react.svg", "/tail.svg", "/js.svg", "/api.svg"],
+    iconLinks: [
+      "https://example.com/react-link",
+      "https://example.com/tail-link",
+      "https://example.com/js-link",
+      "https://example.com/api-link"
+    ],
     githubLink: "https://github.com/AhmadBahr/PixelQuest",
   },
   {
@@ -116,7 +147,11 @@ export const projects = [
     title: "FinShark",
     des: "FinShark is a web application designed for investors to efficiently find financial documents without the distractions of short-term data, using modern web technologies.",
     img: "https://raw.githubusercontent.com/teddysmithdev/FinShark/refs/heads/master/homepage.png",
-    iconLists: ["/react.svg", "/tail.svg", "/netlify.svg"],
+    iconLinks: [
+      "https://example.com/react-link",
+      "https://example.com/tail-link",
+      "https://example.com/netlify-link"
+    ],
     githubLink: "https://github.com/AhmadBahr/FinShark",
   },
   {
@@ -124,18 +159,28 @@ export const projects = [
     title: "Resource Manager",
     des: "Resource Manager is an Electron app that monitors system resources (CPU, RAM, GPU) in real-time. It offers comprehensive monitoring tools for development, testing, and deployment.",
     img: "https://images.hanselman.com/blog/Windows-Live-Writer/1da6eb78bdef_EDA9/image_3.png",
-    iconLists: ["/react.svg", "/node.svg", "/mongo.svg", "/express.svg"],
+    iconLinks: [
+      "https://example.com/react-link",
+      "https://example.com/node-link",
+      "https://example.com/mongo-link",
+      "https://example.com/express-link"
+    ],
     githubLink: "https://github.com/AhmadBahr/Resource-Manager",
   },
   {
     id: 8,
     title: "Code Carfter",
     des: "Code Carfter is an advanced code editor designed for efficient learning and development, supporting multiple programming languages and collaboration features.",
-    img: "https://raw.githubusercontent.com/AhmadBahr/Code-Crafter/master/public/screenshot-for-readme.png", // Replace with image URL
-    iconLists: ["/node.svg", "/js.svg", "/socket.svg"],
+    img: "https://raw.githubusercontent.com/AhmadBahr/Code-Crafter/master/public/screenshot-for-readme.png",
+    iconLinks: [
+      "https://example.com/node-link",
+      "https://example.com/js-link",
+      "https://example.com/socket-link"
+    ],
     githubLink: "https://github.com/AhmadBahr/Code-Crafter",
   },
 ];
+
 
 
 
