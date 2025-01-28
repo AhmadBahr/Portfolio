@@ -33,11 +33,11 @@ const Hero = () => {
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Developer refracts. Hacker does. Programmer solves.
           </p>
-          <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+          <img
+            src="./1715764449064.jpg" 
+            alt="Seamless User Experiences"
+            className="w-40 h-40 rounded-full object-cover" 
           />
-
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Ahmad, a Frontend Developer based in Lebanon.
           </p>
