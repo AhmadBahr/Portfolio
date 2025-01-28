@@ -50,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a LMS platform",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -206,13 +206,12 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    url: "https://github.com/AhmadBahr", // Replace with the desired GitHub URL
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/AhmadBahr", // Replace with the desired LinkedIn URL
   },
 ];
+
