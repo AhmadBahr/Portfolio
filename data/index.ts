@@ -108,35 +108,30 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Ahmad was a seamless experience. His technical expertise and creative approach brought our ideas to life, exceeding our expectations.",
+    name: "Jihad Kandil",
+    title: "CEO of QFLEAP",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ahmad's innovative thinking and dedication were evident in every aspect of our collaboration. I would highly recommend him to anyone looking for exceptional results.",
+    name: "Ali Bou Melhem",
+    title: "Project Manager of QFLEAP",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ahmad's ability to understand our requirements and translate them into functional, user-friendly solutions was remarkable. He truly made a difference in our project.",
+    name: "Hussein Ayoub",
+    title: "CEO of AYOUB COMPUTERS",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ahmad demonstrated an unmatched level of professionalism and technical acumen. The solutions he provided significantly improved our workflow.",
+    name: "Nael Zaherdeen",
+    title: "Head of CS Department of Modern University",
   },
 ];
+
 
 export const companies = [
   {
@@ -174,33 +169,42 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "FRONTEND WEB DEVELOPER",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
+    date: "Oct. 2023 - Oct. 2024",
+    company: "QUANTUM FINTECH LEAP",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "IT TECHNICIAN (INTERNSHIP) ",
+    desc: "Ensured the functionality and security of digital systems and hardware by performing regular diagnostics and updates",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
+    date: "Oct. 2022 – Feb. 2023",
+    company: "AYOUB COMPUTERS",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    title: "Learning Management System (LMS) Website Development",
+    desc: "Designed and developed a fully functional Learning Management System (LMS) website, including features for course management, user authentication, and progress tracking.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+    date: "Nov. 2024 - Present",
+    company: "Freelance",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "VOLUNTEER",
+    desc: "Assisted in organizing and managing university events while providing technical support for small-scale IT projects and platforms.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp3.svg",
+    date: "Nov. 2021 - Nov. 2022",
+    company: "MODERN UNIVERSITY FOR BUSINESS AND SCIENCES",
   },
 ];
+
 
 export const socialMedia = [
   {
