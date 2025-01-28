@@ -73,37 +73,71 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Super Tic-Tac-Toe",
+    des: "Tic-tac-toe is a two-player game where players X and O take turns marking a 3x3 grid. This version enhances the traditional game with AI support and improved UI.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    githubLink: "https://github.com/AhmadBahr/LoginForm-SUPER-TicTacToeGame",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Ryde",
+    des: "Ryde is an Uber clone app, allowing users to book rides, track drivers in real-time, and make secure payments. Built to offer a seamless ride-sharing experience.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    githubLink: "https://github.com/AhmadBahr/Ryde",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Tesla Car",
+    des: "A 3D interactive model of a Tesla car, showcasing its design and features. This project demonstrates the application of Three.js to create an immersive experience.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    githubLink: "https://github.com/AhmadBahr/Tesla-Car",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Sociopedia",
+    des: "Sociopedia is a social media platform built with the MERN stack. It allows users to create profiles, connect with friends, and engage with posts through likes, comments, and shares.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    githubLink: "https://github.com/AhmadBahr/Sociopedia",
+  },
+  {
+    id: 5,
+    title: "Pixel Quest",
+    des: "PixelQuest is a 2D platformer game created using TypeScript and Kaboom.js. Featuring pixel art, players navigate through obstacles, collect items, and defeat enemies.",
+    img: "/p5.svg",
+    iconLists: ["/react.svg", "/tail.svg", "/js.svg", "/api.svg"],
+    githubLink: "https://github.com/AhmadBahr/PixelQuest",
+  },
+  {
+    id: 6,
+    title: "FinShark",
+    des: "FinShark is a web application designed for investors to efficiently find financial documents without the distractions of short-term data, using modern web technologies.",
+    img: "/p6.svg",
+    iconLists: ["/react.svg", "/tail.svg", "/netlify.svg"],
+    githubLink: "https://github.com/AhmadBahr/FinShark",
+  },
+  {
+    id: 7,
+    title: "Resource Manager",
+    des: "Resource Manager is an Electron app that monitors system resources (CPU, RAM, GPU) in real-time. It offers comprehensive monitoring tools for development, testing, and deployment.",
+    img: "/p7.svg",
+    iconLists: ["/react.svg", "/node.svg", "/mongo.svg", "/express.svg"],
+    githubLink: "https://github.com/AhmadBahr/Resource-Manager",
+  },
+  {
+    id: 8,
+    title: "Code Carfter",
+    des: "Code Carfter is an advanced code editor designed for efficient learning and development, supporting multiple programming languages and collaboration features.",
+    img: "/p8.svg",
+    iconLists: ["/node.svg", "/js.svg", "/socket.svg"],
+    githubLink: "https://github.com/AhmadBahr/Code-Crafter",
   },
 ];
+
+
 
 export const testimonials = [
   {
