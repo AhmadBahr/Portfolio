@@ -135,10 +135,11 @@ export const projects = [
     des: "PixelQuest is a 2D platformer game created using TypeScript and Kaboom.js. Featuring pixel art, players navigate through obstacles, collect items, and defeat enemies.",
     img: "https://raw.githubusercontent.com/AhmadBahr/PixelQuest/main/preview.png",
     iconLinks: [
-      "https://example.com/react-link",
-      "https://example.com/tail-link",
-      "https://example.com/js-link",
-      "https://example.com/api-link"
+      "data:image/png;base64,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",
+      "https://p7.hiclipart.com/preview/241/797/259/cascading-style-sheets-css3-javascript-logo-world-wide-web.jpg",
+      "https://kaboomjs.com/static/img/kaboomjs.png",
+      "https://www.svgrepo.com/show/374167/vite.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1f/Html5_canvas_logo.png"
     ],
     githubLink: "https://github.com/AhmadBahr/PixelQuest",
   },
@@ -148,9 +149,12 @@ export const projects = [
     des: "FinShark is a web application designed for investors to efficiently find financial documents without the distractions of short-term data, using modern web technologies.",
     img: "https://raw.githubusercontent.com/teddysmithdev/FinShark/refs/heads/master/homepage.png",
     iconLinks: [
-      "https://example.com/react-link",
-      "https://example.com/tail-link",
-      "https://example.com/netlify-link"
+      "https://codeopinion.com/wp-content/uploads/2017/06/Bitmap-MEDIUM_ASP.NET-Core-MVC-Logo_2colors_Square_Boxed_RGB.png",
+      "https://i.pinimg.com/736x/32/a0/3a/32a03aee0c76419ec5bde950a62883bc.jpg",
+      "https://static-00.iconduck.com/assets.00/tailwind-css-icon-2048x1229-u8dzt4uh.png",
+      "https://obsessivecoder.gallerycdn.vsassets.io/extensions/obsessivecoder/react-component-explorer/0.0.4/1596324109574/Microsoft.VisualStudio.Services.Icons.Default",
+      "https://miro.medium.com/v2/resize:fit:730/1*Bt6K0f3MuARGPbyRAowHww.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8EiH5y97_73nf6GGFzMY8VyauOjUZ0WDpeg&s"
     ],
     githubLink: "https://github.com/AhmadBahr/FinShark",
   },
@@ -160,10 +164,13 @@ export const projects = [
     des: "Resource Manager is an Electron app that monitors system resources (CPU, RAM, GPU) in real-time. It offers comprehensive monitoring tools for development, testing, and deployment.",
     img: "https://images.hanselman.com/blog/Windows-Live-Writer/1da6eb78bdef_EDA9/image_3.png",
     iconLinks: [
-      "https://example.com/react-link",
-      "https://example.com/node-link",
-      "https://example.com/mongo-link",
-      "https://example.com/express-link"
+      "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/electron-icon.png",
+      "https://www.svgrepo.com/show/374167/vite.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png",
+      "https://cdn-icons-png.flaticon.com/256/5968/5968381.png",
+      "https://static-00.iconduck.com/assets.00/cypress-icon-256x256-o4n9txyw.png",
+      "https://styles.redditmedia.com/t5_2yvmp/styles/communityIcon_n9zq6b7wmv2c1.png",
+      "https://pbs.twimg.com/profile_images/1468992415415607299/SSw1_E7c_400x400.jpg"
     ],
     githubLink: "https://github.com/AhmadBahr/Resource-Manager",
   },
