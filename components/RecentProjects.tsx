@@ -1,7 +1,6 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
@@ -47,15 +46,18 @@ const RecentProjects = () => {
                 {item.des}
               </p>
 
-              <div className="flex items-center justify-between mt-7 mb-3">
-                <div className="flex items-center">
+              <div className="flex flex-col justify-between mt-7 mb-3">
+                {/* ICON CONTAINER WITH FLEX WRAP */}
+                <div
+                  className="flex flex-wrap justify-start gap-2"
+                  style={{
+                    maxWidth: item.iconLinks.length > 13 ? "270px" : "100%", 
+                  }}
+                >
                   {item.iconLinks.map((link, index) => (
                     <div
                       key={index}
                       className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
-                      style={{
-                        transform: `translateX(-${5 * index + 2}px)`,
-                      }}
                     >
                       <a href={link} target="_blank" rel="noopener noreferrer">
                         <img src={link} alt="icon" className="p-2" />
@@ -64,11 +66,12 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
+                {/* CHECK LIVE SITE BUTTON */}
+                <div className="flex justify-center items-center mt-4">
                   <a
-                    href={item.githubLink} // Redirect to GitHub link
+                    href={item.githubLink}
                     className="flex lg:text-xl md:text-xs text-sm text-purple"
-                    target="_blank" // Open the link in a new tab
+                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     Check Live Site
