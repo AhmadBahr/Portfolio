@@ -1,10 +1,26 @@
-"use client";
-
 import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+import { useState } from "react";
+import VideoModal from "./ui/VideoModal";
 
 const RecentProjects = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [videoUrl, setVideoUrl] = useState("");
+
+  const handleOpenModal = (url: string) => {
+    console.log("Opening modal with video URL:", url); 
+    if (url) {
+      setVideoUrl(url);
+      setModalOpen(true); // Open the modal
+    }
+  };
+
+  const handleCloseModal = () => {
+    setModalOpen(false);
+    setVideoUrl(""); 
+  };
+
   return (
     <div className="py-20">
       <h1 className="heading">
@@ -47,11 +63,10 @@ const RecentProjects = () => {
               </p>
 
               <div className="flex flex-col justify-between mt-7 mb-3">
-                {/* ICON CONTAINER WITH FLEX WRAP */}
                 <div
                   className="flex flex-wrap justify-start gap-2"
                   style={{
-                    maxWidth: item.iconLinks.length > 13 ? "270px" : "100%", 
+                    maxWidth: item.iconLinks.length > 20 ? "270px" : "100%",
                   }}
                 >
                   {item.iconLinks.map((link, index) => (
@@ -66,16 +81,24 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                {/* CHECK LIVE SITE BUTTON */}
                 <div className="flex justify-center items-center mt-4">
                   <a
-                    href={item.githubLink}
+                    href={item.githubLink} 
                     className="flex lg:text-xl md:text-xs text-sm text-purple"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Check Live Site
+                    Check Repo
                   </a>
+                </div>
+
+                <div className="flex justify-center items-center mt-4">
+                  <button
+                    onClick={() => handleOpenModal(item.videoUrl || "")} 
+                    className="flex lg:text-xl md:text-xs text-sm text-purple"
+                  >
+                    Watch Demo Video
+                  </button>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
@@ -83,6 +106,12 @@ const RecentProjects = () => {
           </div>
         ))}
       </div>
+
+      <VideoModal
+        isOpen={modalOpen}
+        onClose={handleCloseModal}
+        videoUrl={videoUrl} 
+      />
     </div>
   );
 };
