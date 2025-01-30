@@ -310,7 +310,7 @@ export const workExperience = [
     desc: "Designed and developed a fully functional Learning Management System (LMS) website, including features for course management, user authentication, and progress tracking.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
-    date: "Oct. 2023 - Present",
+    date: "Nov. 2024 - Present",
     company: "Freelance",
   },
   {
