@@ -12,7 +12,7 @@ const RecentProjects = () => {
     console.log("Opening modal with video URL:", url); 
     if (url) {
       setVideoUrl(url);
-      setModalOpen(true); // Open the modal
+      setModalOpen(true); 
     }
   };
 

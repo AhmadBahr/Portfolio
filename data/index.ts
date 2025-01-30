@@ -83,6 +83,7 @@ export const projects = [
       "https://static-00.iconduck.com/assets.00/jquery-original-wordmark-icon-485x512-7kn0h2yt.png",
     ],
     githubLink: "https://github.com/AhmadBahr/LoginForm-SUPER-TicTacToeGame",
+    videoUrl: "/1.mp4",
   },
   {
     "id": 2,
@@ -99,7 +100,8 @@ export const projects = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpHj4UwTW4ANSlNjzQOiiOqfDa6kal9RpF0A&s",
       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png"
     ],
-    "githubLink": "https://github.com/AhmadBahr/Ryde"
+    "githubLink": "https://github.com/AhmadBahr/Ryde",
+    videoUrl: "/2.mp4",
   },
   {
     id: 3,
@@ -114,6 +116,7 @@ export const projects = [
       "https://cdn-icons-png.flaticon.com/512/8345/8345929.png"
     ],
     githubLink: "https://github.com/AhmadBahr/Tesla-Car",
+    videoUrl: "/3.mp4",
   },
   {
     id: 4,
@@ -138,6 +141,7 @@ export const projects = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwqWz7aMlinMNdeQ2i5p8ITrqe9f81e9W_xA&s"
     ],
     githubLink: "https://github.com/AhmadBahr/Sociopedia",
+    videoUrl: "/4.mp4",
   },
   {
     id: 5,
@@ -152,6 +156,7 @@ export const projects = [
       "https://upload.wikimedia.org/wikipedia/commons/1/1f/Html5_canvas_logo.png"
     ],
     githubLink: "https://github.com/AhmadBahr/PixelQuest",
+    videoUrl: "/5.mp4",
   },
   {
     id: 6,
@@ -167,6 +172,7 @@ export const projects = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8EiH5y97_73nf6GGFzMY8VyauOjUZ0WDpeg&s"
     ],
     githubLink: "https://github.com/AhmadBahr/FinShark",
+    videoUrl: "/6.mp4",
   },
   {
     id: 7,
@@ -183,6 +189,7 @@ export const projects = [
       "https://pbs.twimg.com/profile_images/1468992415415607299/SSw1_E7c_400x400.jpg"
     ],
     githubLink: "https://github.com/AhmadBahr/Resource-Manager",
+    videoUrl: "/7.mp4",
   },
   {
     "id": 8,
@@ -204,9 +211,12 @@ export const projects = [
       "https://www.typescriptlang.org/icons/icon-48x48.png",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIWm8Ii4M4dO3OkunUpQf1M1G_6_z6jlVzyQ&s"
     ],
-    "githubLink": "https://github.com/AhmadBahr/Code-Crafter"
+    "githubLink": "https://github.com/AhmadBahr/Code-Crafter",
+    videoUrl: "/8.mp4",
   }
 ];
+
+
 
 export const testimonials = [
   {
@@ -294,7 +304,7 @@ export const workExperience = [
     desc: "Designed and developed a fully functional Learning Management System (LMS) website, including features for course management, user authentication, and progress tracking.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
-    date: "Nov. 2024 - Present",
+    date: "Oct. 2023 - Present",
     company: "Freelance",
   },
   {
