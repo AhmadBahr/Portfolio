@@ -221,27 +221,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Working with Ahmad was a seamless experience. His technical expertise and creative approach brought our ideas to life, exceeding our expectations.",
-    name: "Jihad Kandil",
+      "Ahmad is a highly skilled frontend developer with a keen eye for design and user experience. His ability to create intuitive, responsive, and visually stunning interfaces set our platform apart. His attention to detail and deep understanding of modern web technologies make him an invaluable asset to any team.", name: "Jihad Kandil",
     title: "CEO of QFLEAP",
+    urlPicture: "https://media.licdn.com/dms/image/v2/D4D03AQHgRXz5HPiUZg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723675082759?e=1743638400&v=beta&t=rLaf2G3NAozPG_5eFnj-15VmTv5413b1swqpQOivOm0",
   },
   {
     quote:
       "Ahmad's innovative thinking and dedication were evident in every aspect of our collaboration. I would highly recommend him to anyone looking for exceptional results.",
     name: "Ali Bou Melhem",
     title: "Project Manager of QFLEAP",
+    urlPicture: "https://media.licdn.com/dms/image/v2/C4D03AQEHJ6DGQPA9dg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1608201656609?e=1743638400&v=beta&t=cbruOox9s755lz7X-QY0Lhy5X9EBh1ukaPFefqskmiU", // New image URL
+
   },
   {
     quote:
-      "Ahmad's ability to understand our requirements and translate them into functional, user-friendly solutions was remarkable. He truly made a difference in our project.",
+      "Ahmad’s expertise in IT maintenance ensured that our systems remained secure, optimized, and running smoothly. His proactive approach to problem-solving and quick response to technical challenges minimized downtime and improved overall efficiency. His reliability and deep technical knowledge make him a trusted IT professional.",
     name: "Hussein Ayoub",
     title: "CEO of AYOUB COMPUTERS",
+    urlPicture: "https://media.licdn.com/dms/image/C5603AQGfvW3g2J7Ycw/profile-displayphoto-shrink_200_200/0/1517603440776?e=2147483647&v=beta&t=amOWrkWOdUtTwsxb0F4nURt_iZYV8HERpZGZC7XfLw0",
+
   },
   {
     quote:
-      "Ahmad demonstrated an unmatched level of professionalism and technical acumen. The solutions he provided significantly improved our workflow.",
+      "Ahmad has a strong passion for social volunteering and community support. His dedication to helping others and his ability to organize impactful initiatives have made a significant difference. Whether leading projects or supporting teams, his commitment to social good and positive change is truly inspiring.",
     name: "Nael Zaherdeen",
     title: "Head of CS Department of Modern University",
+    urlPicture: "https://media.licdn.com/dms/image/v2/C4D03AQHfdS6KK-fOig/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1565463597138?e=1743638400&v=beta&t=ZqC71Jot3GNtocn5jDn4zGOx6zCs6FV4KmOP2MzOr6U", // New image URL
+
   },
 ];
 
