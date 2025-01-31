@@ -329,12 +329,22 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url: "https://github.com/AhmadBahr", // Replace with the desired GitHub URL
+    url: "https://github.com/AhmadBahr", 
+  },
+  {
+    id: 2,
+    img: "/insta.svg",
+    url: "https://www.instagram.com/attotame",
   },
   {
     id: 3,
     img: "/link.svg",
-    url: "https://www.linkedin.com/in/AhmadBahr", // Replace with the desired LinkedIn URL
+    url: "https://www.linkedin.com/in/AhmadBahr", 
+  },
+  {
+    id: 4,
+    img: "/tiktok.svg",
+    url: "https://www.tiktok.com/@atto_toks",
   },
 ];
 
