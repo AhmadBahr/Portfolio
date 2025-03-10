@@ -180,7 +180,7 @@ export const projects = [
     des: "Resource Manager is an Electron app that monitors system resources (CPU, RAM, GPU) in real-time. It offers comprehensive monitoring tools for development, testing, and deployment.",
     img: "https://images.hanselman.com/blog/Windows-Live-Writer/1da6eb78bdef_EDA9/image_3.png",
     iconLinks: [
-      "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/electron-icon.png",
+      "https://logowik.com/content/uploads/images/electron-js-app5733.logowik.com.webp",
       "https://www.svgrepo.com/show/374167/vite.svg",
       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png",
       "https://cdn-icons-png.flaticon.com/256/5968/5968381.png",
@@ -200,7 +200,7 @@ export const projects = [
       "https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-4-pack-icons-282599.png",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV9uzErWz9EXqZDxZ5lP9aYpMz8eK6rr5X3w&s",
       "https://static-00.iconduck.com/assets.00/tailwind-css-icon-2048x1229-u8dzt4uh.png",
-      "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/framer-color-icon.png",
+      "https://framerusercontent.com/images/TvJ9grdPgk3sRz6T6XwkpBrFr4k.png?scale-down-to=512",
       "https://user-images.githubusercontent.com/2723376/55211710-2f76e000-5228-11e9-887b-67faca78c4b9.png",
       "https://yt3.googleusercontent.com/8eSFHFnQOQ_H5xEmPuTIh_x-Ka6_ymlSaiLOn1EsXHEcCBtXuM3qbJsip2qeSEkNVLnqrSTvJw=s160-c-k-c0x00ffffff-no-rj",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSItJtC5nYpeiNYWUNfrvmbL0I38TrVsiJ4rA&s",

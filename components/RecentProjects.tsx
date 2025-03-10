@@ -9,16 +9,16 @@ const RecentProjects = () => {
   const [videoUrl, setVideoUrl] = useState("");
 
   const handleOpenModal = (url: string) => {
-    console.log("Opening modal with video URL:", url); 
+    console.log("Opening modal with video URL:", url);
     if (url) {
       setVideoUrl(url);
-      setModalOpen(true); 
+      setModalOpen(true);
     }
   };
 
   const handleCloseModal = () => {
     setModalOpen(false);
-    setVideoUrl(""); 
+    setVideoUrl("");
   };
 
   return (
@@ -27,12 +27,13 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
+      <div className="flex flex-wrap items-center justify-center gap-16 p-4 mt-[calc(100px+2vh)] sm:mt-20">
         {projects.map((item) => (
           <div
-            className="lg:min-h-[32.5rem] h-[20rem] flex items-center justify-center sm:w-96 w-[80vw]"
+            className="lg:min-h-[40rem] h-auto flex flex-col items-center justify-between w-full max-w-[90vw] sm:max-w-[30rem] mt-10 sm:mt-0"
             key={item.id}
           >
+
             <PinContainer title={item.title}>
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
@@ -44,8 +45,9 @@ const RecentProjects = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute bottom-0 max-h-[200px] object-contain"
                 />
+
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
@@ -83,7 +85,7 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center mt-4">
                   <a
-                    href={item.githubLink} 
+                    href={item.githubLink}
                     className="flex lg:text-xl md:text-xs text-sm text-purple"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -94,7 +96,7 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center mt-4">
                   <button
-                    onClick={() => handleOpenModal(item.videoUrl || "")} 
+                    onClick={() => handleOpenModal(item.videoUrl || "")}
                     className="flex lg:text-xl md:text-xs text-sm text-purple"
                   >
                     Watch Demo Video
@@ -110,7 +112,7 @@ const RecentProjects = () => {
       <VideoModal
         isOpen={modalOpen}
         onClose={handleCloseModal}
-        videoUrl={videoUrl} 
+        videoUrl={videoUrl}
       />
     </div>
   );
