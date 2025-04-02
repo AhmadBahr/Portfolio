@@ -306,12 +306,12 @@ export const workExperience = [
   },
   {
     id: 3,
-    title: "Learning Management System (LMS) Website Development",
-    desc: "Designed and developed a fully functional Learning Management System (LMS) website, including features for course management, user authentication, and progress tracking.",
+    title: "MERN Stack Developer",
+    desc: "I  developed a fully functional ride-hailing application using the MERN stack, tailored for Lebanon, incorporating ride-hailing features, authentication, payments, and more.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
-    date: "Nov. 2024 - Present",
-    company: "Freelance",
+    date: "Feb. 2025 - Apr. 2025",
+    company: "ITSC group (INTERNSHIP)",
   },
   {
     id: 4,
@@ -329,7 +329,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url: "https://github.com/AhmadBahr", 
+    url: "https://github.com/AhmadBahr",
   },
   {
     id: 2,
@@ -339,7 +339,7 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    url: "https://www.linkedin.com/in/AhmadBahr", 
+    url: "https://www.linkedin.com/in/AhmadBahr",
   },
   {
     id: 4,
