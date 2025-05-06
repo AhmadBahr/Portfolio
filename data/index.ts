@@ -223,14 +223,14 @@ export const testimonials = [
     quote:
       "Ahmad is a highly skilled frontend developer with a keen eye for design and user experience. His ability to create intuitive, responsive, and visually stunning interfaces set our platform apart. His attention to detail and deep understanding of modern web technologies make him an invaluable asset to any team.", name: "Jihad Kandil",
     title: "CEO of QFLEAP",
-    urlPicture: "https://media.licdn.com/dms/image/v2/D4D03AQHgRXz5HPiUZg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723675082759?e=1743638400&v=beta&t=rLaf2G3NAozPG_5eFnj-15VmTv5413b1swqpQOivOm0",
+    urlPicture: "https://media.licdn.com/dms/image/v2/D4D03AQGIfLT3WnVQdQ/profile-displayphoto-shrink_200_200/B4DZWkIUCcHIAY-/0/1742215401547?e=2147483647&v=beta&t=SvgzsN6im7bzRHmhJ5om7Dyr7BtN_H8V5t6RbFZAuaE",
   },
   {
     quote:
       "Ahmad's innovative thinking and dedication were evident in every aspect of our collaboration. I would highly recommend him to anyone looking for exceptional results.",
     name: "Ali Bou Melhem",
     title: "Project Manager of QFLEAP",
-    urlPicture: "https://media.licdn.com/dms/image/v2/C4D03AQEHJ6DGQPA9dg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1608201656609?e=1743638400&v=beta&t=cbruOox9s755lz7X-QY0Lhy5X9EBh1ukaPFefqskmiU", // New image URL
+    urlPicture: "https://media.licdn.com/dms/image/v2/C4D03AQEHJ6DGQPA9dg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1608201656609?e=1752105600&v=beta&t=K0mVDrXoALYp1xLKS5qYZjsN5fckyauJGP5Orf5oXhE", 
 
   },
   {
@@ -246,7 +246,7 @@ export const testimonials = [
       "Ahmad has a strong passion for social volunteering and community support. His dedication to helping others and his ability to organize impactful initiatives have made a significant difference. Whether leading projects or supporting teams, his commitment to social good and positive change is truly inspiring.",
     name: "Nael Zaherdeen",
     title: "Head of CS Department of Modern University",
-    urlPicture: "https://media.licdn.com/dms/image/v2/C4D03AQHfdS6KK-fOig/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1565463597138?e=1743638400&v=beta&t=ZqC71Jot3GNtocn5jDn4zGOx6zCs6FV4KmOP2MzOr6U", // New image URL
+    urlPicture: "https://www.linkedin.com/in/na%C3%A8l-zahredeen-797b75190?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC0F4SMB5IgjLbtZ-cQhRMe9x1lyJKn6vR4&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BcXJ2UTgbS6CSs10l%2FzqYHw%3D%3D"
 
   },
 ];
