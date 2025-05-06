@@ -246,7 +246,7 @@ export const testimonials = [
       "Ahmad has a strong passion for social volunteering and community support. His dedication to helping others and his ability to organize impactful initiatives have made a significant difference. Whether leading projects or supporting teams, his commitment to social good and positive change is truly inspiring.",
     name: "Nael Zaherdeen",
     title: "Head of CS Department of Modern University",
-    urlPicture: "https://www.linkedin.com/in/na%C3%A8l-zahredeen-797b75190?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC0F4SMB5IgjLbtZ-cQhRMe9x1lyJKn6vR4&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BcXJ2UTgbS6CSs10l%2FzqYHw%3D%3D"
+    urlPicture: "https://media.licdn.com/dms/image/v2/C4D03AQHfdS6KK-fOig/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1565463597138?e=1752105600&v=beta&t=XLakUuTeMDFMt2H1BSu8C9anrXyotl4atqAnL-PiQ-k"
 
   },
 ];
