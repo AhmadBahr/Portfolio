@@ -27,7 +27,7 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center gap-16 p-4 mt-[calc(100px+2vh)] sm:mt-20">
+      <div className="flex flex-wrap items-center justify-center gap-16 p-4 mt-[calc(100px+2vh)] sm:mt-40">
         {projects.map((item) => (
           <div
             className="lg:min-h-[40rem] h-auto flex flex-col items-center justify-between w-full max-w-[90vw] sm:max-w-[30rem] mt-10 sm:mt-0"
